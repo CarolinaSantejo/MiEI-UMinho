@@ -1,0 +1,165 @@
+<scene>
+    <group>
+		<color R="1" G="1" B="0"/>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+    </group>
+	<group>
+		<rotate angle="32" axisX="0" axisY="1" axisZ="0"/>
+		<color R="0.65" G="0" B="0.15"/>
+		<translate X="3" Y="0" Z="0"/>
+		<scale X="0.05" Y="0.05" Z="0.05"/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+	</group>
+	<group>
+		<rotate angle="12" axisX="0" axisY="1" axisZ="0"/>
+		<color R="0.7" G="0.5" B="0.3"/>
+		<translate X="3.5" Y="0" Z="0"/>
+		<scale X="0.06" Y="0.06" Z="0.06"/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+	</group>
+	<group>
+		<rotate angle="234" axisX="0" axisY="1" axisZ="0"/>
+		<color R="0" G="0" B="0.8"/>
+		<translate X="4" Y="0" Z="0"/>
+		<scale X="0.08" Y="0.08" Z="0.08"/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+		<group>
+			<color R="1" G="1" B="1"/>
+			<translate X="0" Y="0" Z="3"/>
+			<scale X="0.25" Y="0.25" Z="0.25"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<rotate angle="332" axisX="0" axisY="1" axisZ="0"/>
+		<color R="0.95" G="0" B="0"/>
+		<translate X="4.5" Y="0" Z="0"/>
+		<scale X="0.06" Y="0.06" Z="0.06"/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+	</group>
+	<group>
+		<rotate angle="275" axisX="0" axisY="1" axisZ="0"/>
+		<color R="0.7" G="0.5" B="0.3"/>
+		<translate X="8" Y="0" Z="0"/>
+		<scale X="0.3" Y="0.3" Z="0.3"/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+		<group>
+			<color R="1" G="1" B="0.4"/>
+			<translate X="0" Y="0.2" Z="2.6"/>
+			<scale X="0.09" Y="0.09" Z="0.09"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+		<group>
+			<color R="1" G="1" B="1"/>
+			<rotate angle="45" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="0" Y="-0.3" Z="2.6"/>
+			<scale X="0.09" Y="0.09" Z="0.09"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+		<group>
+			<color R="0.5" G="0.5" B="0.6"/>
+			<rotate angle="145" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="0" Y="0" Z="2.6"/>
+			<scale X="0.09" Y="0.09" Z="0.09"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+		<group>
+			<color R="0.3" G="0.3" B="0.3"/>
+			<rotate angle="345" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="0" Y="0.05" Z="2.6"/>
+			<scale X="0.09" Y="0.09" Z="0.09"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<rotate angle="145" axisX="0" axisY="1" axisZ="0"/>
+		<color R="0.95" G="0.5" B="0.3"/>
+		<translate X="9.5" Y="0" Z="0"/>
+		<scale X="0.22" Y="0.22" Z="0.22"/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+		<group>
+			<color R="0.8" G="0.5" B="0.3"/>
+			<rotate angle="70" axisX="1" axisY="0" axisZ="0"/>
+			<models>
+				<model file="torus.3d"/>
+			</models>
+		</group>
+		<group>
+			<color R="1" G="1" B="0.8"/>
+			<rotate angle="45" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="0" Y="0" Z="2.6"/>
+			<scale X="0.05" Y="0.05" Z="0.05"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+		<group>
+			<color R="0.9" G="0.8" B="0.8"/>
+			<rotate angle="95" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="0" Y="0" Z="2.6"/>
+			<scale X="0.05" Y="0.05" Z="0.05"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+		<group>
+			<color R="1" G="1" B="0.4"/>
+			<rotate angle="245" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="0" Y="0" Z="2.6"/>
+			<scale X="0.05" Y="0.05" Z="0.05"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+		<group>
+			<color R="1" G="1" B="1"/>
+			<rotate angle="305" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="0" Y="0" Z="2.6"/>
+			<scale X="0.05" Y="0.05" Z="0.05"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<rotate angle="90" axisX="0" axisY="1" axisZ="0"/>
+		<color R="0" G="0.666" B="1"/>
+		<translate X="11" Y="0" Z="0"/>
+		<scale X="0.23" Y="0.23" Z="0.23"/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+	</group>
+	<group>
+		<color R="0" G="1" B="1"/>
+		<translate X="12.5" Y="0" Z="0"/>
+		<scale X="0.17" Y="0.17" Z="0.17"/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+	</group>
+</scene>

@@ -1,0 +1,381 @@
+<scene>
+
+	<group>
+		<rotate time="15" axisX="0" axisY="1" axisZ="0" />
+		<group>
+			<color R="1" G="0.6" B="0"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+
+	<group>
+		<color R="0.3" G="0.3" B="0.3"/>
+		<rotate angle="-30" axisX="0" axisY="1" axisZ="0" />
+		<translate time="4" >
+			<point X="2.121320346" Y="0" Z="2.121320346" />
+			<point X="0" Y="0" Z="3" />
+			<point X="-2.121320346" Y="0" Z="2.121320346" />
+			<point X="-3" Y="0" Z="0" />
+			<point X="-2.121320346" Y="0" Z="-2.121320346" />
+			<point X="0" Y="0" Z="-3" />
+			<point X="2.121320346" Y="0" Z="-2.121320346" />
+			<point X="3" Y="0" Z="0" />
+		</translate>
+		<group>
+			<color R="0.65" G="0.3" B="0.15"/>
+			<scale X="0.05" Y="0.05" Z="0.05"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+
+	<group>
+		<color R="0.3" G="0.3" B="0.3"/>
+		<rotate angle="12" axisX="0" axisY="1" axisZ="0" />
+		<translate time="6" >
+			<point X="2.474873737" Y="0" Z="2.474873737" />
+			<point X="0" Y="0" Z="3.5" />
+			<point X="-2.474873737" Y="0" Z="2.474873737" />
+			<point X="-3.5" Y="0" Z="0" />
+			<point X="-2.474873737" Y="0" Z="-2.474873737" />
+			<point X="0" Y="0" Z="-3.5" />
+			<point X="2.474873737" Y="0" Z="-2.474873737" />
+			<point X="3.5" Y="0" Z="0" />
+		</translate>
+		<group>
+			<color R="0.7" G="0.5" B="0.3"/>
+			<scale X="0.06" Y="0.06" Z="0.06"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+
+	<group>
+		<color R="0.3" G="0.3" B="0.3"/>
+		<rotate angle="234" axisX="0" axisY="1" axisZ="0" />
+		<translate time="10" >
+			<point X="2.828427128" Y="0" Z="2.828427128" />
+			<point X="0" Y="0" Z="4" />
+			<point X="-2.828427128" Y="0" Z="2.828427128" />
+			<point X="-4" Y="0" Z="0" />
+			<point X="-2.828427128" Y="0" Z="-2.828427128" />
+			<point X="0" Y="0" Z="-4" />
+			<point X="2.828427128" Y="0" Z="-2.828427128" />
+			<point X="4" Y="0" Z="0" />
+		</translate>
+		<group>
+			<color R="0" G="0" B="0.8"/>
+			<scale X="0.08" Y="0.08" Z="0.08"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+			<group>
+				<color R="0.3" G="0.3" B="0.3"/>
+				<translate time="10" >
+					<point X="2.121320346" Y="0" Z="2.121320346" />
+					<point X="0" Y="0" Z="3" />
+					<point X="-2.121320346" Y="0" Z="2.121320346" />
+					<point X="-3" Y="0" Z="0" />
+					<point X="-2.121320346" Y="0" Z="-2.121320346" />
+					<point X="0" Y="0" Z="-3" />
+					<point X="2.121320346" Y="0" Z="-2.121320346" />
+					<point X="3" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="0.9" G="0.9" B="0.9"/>
+					<scale X="0.25" Y="0.25" Z="0.25"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+		</group>
+	</group>
+
+	<group>
+		<color R="0.3" G="0.3" B="0.3"/>
+		<rotate angle="332" axisX="0" axisY="1" axisZ="0" />
+		<translate time="19" >
+			<point X="3.181980519" Y="0" Z="3.181980519" />
+			<point X="0" Y="0" Z="4.5" />
+			<point X="-3.181980519" Y="0" Z="3.181980519" />
+			<point X="-4.5" Y="0" Z="0" />
+			<point X="-3.181980519" Y="0" Z="-3.181980519" />
+			<point X="0" Y="0" Z="-4.5" />
+			<point X="3.181980519" Y="0" Z="-3.181980519" />
+			<point X="4.5" Y="0" Z="0" />
+		</translate>
+		<group>
+			<color R="0.85" G="0.2" B="0.2"/>
+			<scale X="0.06" Y="0.06" Z="0.06"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+
+	<group>
+		<color R="0.3" G="0.3" B="0.3"/>
+		<rotate angle="275" axisX="0" axisY="1" axisZ="0" />
+		<translate time="30" >
+			<point X="5.656854256" Y="0" Z="5.656854256" />
+			<point X="0" Y="0" Z="8" />
+			<point X="-5.656854256" Y="0" Z="5.656854256" />
+			<point X="-8" Y="0" Z="0" />
+			<point X="-5.656854256" Y="0" Z="-5.656854256" />
+			<point X="0" Y="0" Z="-8" />
+			<point X="5.656854256" Y="0" Z="-5.656854256" />
+			<point X="8" Y="0" Z="0" />
+		</translate>
+		<group>
+			<color R="0.7" G="0.5" B="0.3"/>
+			<scale X="0.3" Y="0.3" Z="0.3"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+			<group>
+				<color R="0.3" G="0.3" B="0.3"/>
+				<translate time="17" >
+					<point X="1.626345599" Y="0" Z="1.626345599" />
+					<point X="0" Y="0" Z="2.3" />
+					<point X="-1.626345599" Y="0" Z="1.626345599" />
+					<point X="-2.3" Y="0" Z="0" />
+					<point X="-1.626345599" Y="0" Z="-1.626345599" />
+					<point X="0" Y="0" Z="-2.3" />
+					<point X="1.626345599" Y="0" Z="-1.626345599" />
+					<point X="2.3" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="1" G="1" B="0.4"/>
+					<scale X="0.09" Y="0.09" Z="0.09"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+			<group>
+				<color R="0.35" G="0.35" B="0.35"/>
+				<rotate angle="30" axisX="1" axisY="0" axisZ="0"/>
+				<translate time="20" >
+					<point X="1.767766955" Y="0" Z="1.767766955" />
+					<point X="0" Y="0" Z="2.5" />
+					<point X="-1.767766955" Y="0" Z="1.767766955" />
+					<point X="-2.5" Y="0" Z="0" />
+					<point X="-1.767766955" Y="0" Z="-1.767766955" />
+					<point X="0" Y="0" Z="-2.5" />
+					<point X="1.767766955" Y="0" Z="-1.767766955" />
+					<point X="2.5" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="1" G="1" B="1"/>
+					<scale X="0.05" Y="0.05" Z="0.05"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+			<group>
+				<color R="0.35" G="0.35" B="0.35"/>
+				<rotate angle="70" axisX="1" axisY="0" axisZ="0"/>
+				<translate time="23" >
+					<point X="1.909188311" Y="0" Z="1.909188311" />
+					<point X="0" Y="0" Z="2.7" />
+					<point X="-1.909188311" Y="0" Z="1.909188311" />
+					<point X="-2.7" Y="0" Z="0" />
+					<point X="-1.909188311" Y="0" Z="-1.909188311" />
+					<point X="0" Y="0" Z="-2.7" />
+					<point X="1.909188311" Y="0" Z="-1.909188311" />
+					<point X="2.7" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="0.5" G="0.5" B="0.6"/>
+					<scale X="0.07" Y="0.07" Z="0.07"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+			<group>
+				<color R="0.3" G="0.3" B="0.3"/>
+				<rotate angle="-25" axisX="1" axisY="0" axisZ="0"/>
+				<translate time="26" >
+					<point X="2.121320346" Y="0" Z="2.121320346" />
+					<point X="0" Y="0" Z="3" />
+					<point X="-2.121320346" Y="0" Z="2.121320346" />
+					<point X="-3" Y="0" Z="0" />
+					<point X="-2.121320346" Y="0" Z="-2.121320346" />
+					<point X="0" Y="0" Z="-3" />
+					<point X="2.121320346" Y="0" Z="-2.121320346" />
+					<point X="3" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="0.3" G="0.3" B="0.3"/>
+					<scale X="0.09" Y="0.09" Z="0.09"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+		</group>
+	</group>
+
+	<group>
+		<color R="0.3" G="0.3" B="0.3"/>
+		<rotate angle="145" axisX="0" axisY="1" axisZ="0"/>
+		<translate time="26" >
+			<point X="6.717514429" Y="0" Z="6.717514429" />
+			<point X="0" Y="0" Z="9.5" />
+			<point X="-6.717514429" Y="0" Z="6.717514429" />
+			<point X="-9.5" Y="0" Z="0" />
+			<point X="-6.717514429" Y="0" Z="-6.717514429" />
+			<point X="0" Y="0" Z="-9.5" />
+			<point X="6.717514429" Y="0" Z="-6.717514429" />
+			<point X="9.5" Y="0" Z="0" />
+		</translate>
+		<group>
+			<color R="0.95" G="0.5" B="0.3"/>
+			<scale X="0.22" Y="0.22" Z="0.22"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+			<group>
+				<color R="0.8" G="0.5" B="0.3"/>
+				<rotate angle="70" axisX="1" axisY="0" axisZ="0"/>
+				<models>
+					<model file="torus.3d"/>
+				</models>
+			</group>
+			<group>
+				<color R="0.3" G="0.3" B="0.3"/>
+				<rotate angle="-25" axisX="1" axisY="0" axisZ="0"/>
+				<translate time="17" >
+					<point X="1.626345599" Y="0" Z="1.626345599" />
+					<point X="0" Y="0" Z="2.3" />
+					<point X="-1.626345599" Y="0" Z="1.626345599" />
+					<point X="-2.3" Y="0" Z="0" />
+					<point X="-1.626345599" Y="0" Z="-1.626345599" />
+					<point X="0" Y="0" Z="-2.3" />
+					<point X="1.626345599" Y="0" Z="-1.626345599" />
+					<point X="2.3" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="1" G="1" B="0.8"/>
+					<scale X="0.05" Y="0.05" Z="0.05"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+			<group>
+				<color R="0.3" G="0.3" B="0.3"/>
+				<rotate angle="-20" axisX="1" axisY="0" axisZ="0"/>
+				<translate time="20" >
+					<point X="1.767766955" Y="0" Z="1.767766955" />
+					<point X="0" Y="0" Z="2.5" />
+					<point X="-1.767766955" Y="0" Z="1.767766955" />
+					<point X="-2.5" Y="0" Z="0" />
+					<point X="-1.767766955" Y="0" Z="-1.767766955" />
+					<point X="0" Y="0" Z="-2.5" />
+					<point X="1.767766955" Y="0" Z="-1.767766955" />
+					<point X="2.5" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="0.9" G="0.8" B="0.8"/>
+					<scale X="0.05" Y="0.05" Z="0.05"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+			<group>
+				<color R="0.3" G="0.3" B="0.3"/>
+				<rotate angle="-30" axisX="1" axisY="0" axisZ="0"/>
+				<translate time="23" >
+					<point X="1.909188311" Y="0" Z="1.909188311" />
+					<point X="0" Y="0" Z="2.7" />
+					<point X="-1.909188311" Y="0" Z="1.909188311" />
+					<point X="-2.7" Y="0" Z="0" />
+					<point X="-1.909188311" Y="0" Z="-1.909188311" />
+					<point X="0" Y="0" Z="-2.7" />
+					<point X="1.909188311" Y="0" Z="-1.909188311" />
+					<point X="2.7" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="1" G="1" B="0.4"/>
+					<scale X="0.05" Y="0.05" Z="0.05"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+			<group>
+				<color R="0.3" G="0.3" B="0.3"/>
+				<rotate angle="-32" axisX="1" axisY="0" axisZ="0"/>
+				<translate time="26" >
+					<point X="2.121320346" Y="0" Z="2.121320346" />
+					<point X="0" Y="0" Z="3" />
+					<point X="-2.121320346" Y="0" Z="2.121320346" />
+					<point X="-3" Y="0" Z="0" />
+					<point X="-2.121320346" Y="0" Z="-2.121320346" />
+					<point X="0" Y="0" Z="-3" />
+					<point X="2.121320346" Y="0" Z="-2.121320346" />
+					<point X="3" Y="0" Z="0" />
+				</translate>
+				<group>
+					<color R="1" G="1" B="1"/>
+					<scale X="0.05" Y="0.05" Z="0.05"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+		</group>
+	</group>
+
+	<group>
+		<color R="0.3" G="0.3" B="0.3"/>
+		<rotate angle="90" axisX="0" axisY="1" axisZ="0"/>
+		<translate time="26" >
+			<point X="7.778174602" Y="0" Z="7.778174602" />
+			<point X="0" Y="0" Z="11" />
+			<point X="-7.778174602" Y="0" Z="7.778174602" />
+			<point X="-11" Y="0" Z="0" />
+			<point X="-7.778174602" Y="0" Z="-7.778174602" />
+			<point X="0" Y="0" Z="-11" />
+			<point X="7.778174602" Y="0" Z="-7.778174602" />
+			<point X="11" Y="0" Z="0" />
+		</translate>
+		<group>
+			<color R="0" G="1" B="1"/>
+			<scale X="0.23" Y="0.23" Z="0.23"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+
+	<group>
+		<color R="0.3" G="0.3" B="0.3"/>
+		<translate time="26" >
+			<point X="8.838834775" Y="0" Z="8.838834775" />
+			<point X="0" Y="0" Z="12.5" />
+			<point X="-8.838834775" Y="0" Z="8.838834775" />
+			<point X="-12.5" Y="0" Z="0" />
+			<point X="-8.838834775" Y="0" Z="-8.838834775" />
+			<point X="0" Y="0" Z="-12.5" />
+			<point X="8.838834775" Y="0" Z="-8.838834775" />
+			<point X="12.5" Y="0" Z="0" />
+		</translate>
+		<group>
+			<color R="0" G="0.666" B="1"/>
+			<scale X="0.2" Y="0.2" Z="0.2"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+		</group>
+	</group>
+</scene>

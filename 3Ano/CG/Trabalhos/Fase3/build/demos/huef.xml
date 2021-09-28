@@ -1,0 +1,20 @@
+<scene>
+	<group>
+		<translate time="1" >
+			<point X="3" Y="0" Z="3" />
+			<point X="0" Y="0" Z="4.24264068" />
+			<point X="-3" Y="0" Z="3" />
+			<point X="-4.24264068" Y="0" Z="0" />
+			<point X="-3" Y="0" Z="-3" />
+			<point X="0" Y="0" Z="-4.24264068" />
+			<point X="3" Y="0" Z="-3" />
+			<point X="4.24264068" Y="0" Z="0" />
+		</translate>
+		<group>
+			<rotate time="10" axisX="1" axisY="0" axisZ="0" />
+			<models>
+				<model file="teapot.3d" />
+			</models>
+		</group>
+	</group>
+</scene>
