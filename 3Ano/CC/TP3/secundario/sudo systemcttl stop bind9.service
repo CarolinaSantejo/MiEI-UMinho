@@ -1,0 +1,19 @@
+[0;1;32m●[0m bind9.service - BIND Domain Name Server
+   Loaded: loaded (/lib/systemd/system/bind9.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Tue 2021-04-27 14:42:11 WEST; 21min ago
+     Docs: man:named(8)
+ Main PID: 758 (named)
+    Tasks: 7 (limit: 2337)
+   CGroup: /system.slice/bind9.service
+           └─758 /usr/sbin/named -f -u bind
+
+abr 27 14:42:17 xubuncore named[758]: automatic empty zone: EMPTY.AS112.ARPA
+abr 27 14:42:17 xubuncore named[758]: none:103: 'max-cache-size 90%' - setting to 1793MB (out of 1992MB)
+abr 27 14:42:17 xubuncore named[758]: configuring command channel from '/etc/bind/rndc.key'
+abr 27 14:42:17 xubuncore named[758]: configuring command channel from '/etc/bind/rndc.key'
+abr 27 14:42:17 xubuncore named[758]: reloading configuration succeeded
+abr 27 14:42:17 xubuncore named[758]: [0;1;39m[0;1;31m[0;1;39mmanaged-keys-zone: Unable to fetch DNSKEY set '.': operation canceled[0m
+abr 27 14:42:17 xubuncore named[758]: resolver priming query complete
+abr 27 14:42:18 xubuncore named[758]: scheduled loading new zones
+abr 27 14:42:18 xubuncore named[758]: any newly configured zones are now loaded
+abr 27 14:42:18 xubuncore named[758]: [0;1;39m[0;1;31m[0;1;39mrunning[0m
