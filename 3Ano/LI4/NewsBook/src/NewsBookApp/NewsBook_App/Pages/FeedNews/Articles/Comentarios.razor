@@ -1,0 +1,81 @@
+﻿@using DataAccessLibrary
+@using NewsBookLN.GestPublicacoes
+@inject IPeopleData db
+@inject LoginState loginState
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="w3-container" style="font-family:sans-serif">
+    <button onclick="document.getElementById(@ArtComent.IdPublicacao).style.display='block'" class="w3-button w3-margin-bottom"><i class="fa fa-comment-o"></i>  Comment</button>
+</div>
+
+<div id="@ArtComent.IdPublicacao" class="w3-modal">
+    <div class="w3-modal-content" style="width:90%; height:90%; font-family:sans-serif">
+        <span onclick="document.getElementById(@ArtComent.IdPublicacao).style.display='none'" class="w3-button w3-display-topright w3-large"><i class="fa fa-close"></i></span>
+        <h3 style="padding:10px">Comments</h3><hr style="margin-bottom:0px;margin-top:-10px">
+        <ul class="w3-ul" style="height:55%;overflow-y:auto">
+            @if (comentarios != null)
+            {
+                foreach (Comentario c in comentarios.Values)
+                {
+                    <li>
+                        <div class="w3-container w3-cell" style="padding:6px 0px">
+                            <img src="img/avatar3.png" class="w3-center" style="width:75px">
+                        </div>
+                        <div class="w3-container w3-cell" style="width:100%">
+                            <span class="w3-right w3-opacity" style="font-size:13px;margin-left:80%">@c.Data</span>
+                            <p style="margin:0px"><b>@c.UserName</b></p>
+                            <p style="font-size:13px;text-align:justify">@c.Texto</p>
+                        </div>
+                    </li>
+                }
+            }
+        </ul>
+        <textarea placeholder="Comment here..." id="comment" style="display:block;margin:5px auto;width:95%; height:100px" @bind="newComment"/>
+        <button onclick="document.getElementById('comment').value = ''" class="w3-button w3-light-grey w3-round w3-display-bottomright" style="margin:5px 80px 5px 10px">Cancel</button>
+        <button @onclick="postComment" class="w3-button w3-blue w3-round w3-display-bottomright" style="margin:5px 10px">Post</button>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public Artigo ArtComent { get; set; }
+
+    IDictionary<string, Comentario> comentarios;
+    string newComment;
+    Comentario c;
+    IDictionary<int, string> nomesJornalistas = new Dictionary<int, string>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine(ArtComent.IdPublicacao);
+        List<Comentario> commentList = await db.GetComentarios(ArtComent.IdPublicacao);
+        comentarios = new Dictionary<string, Comentario>();
+        foreach(Comentario cm in commentList)
+        {
+            comentarios.Add(cm.UserName, cm);
+        }
+
+    }
+
+    void postComment()
+    {
+        Comentario c = new Comentario(loginState.UserIDlogged,newComment,ArtComent.IdPublicacao);
+        if (comentarios.ContainsKey(loginState.UserIDlogged))
+        {
+            db.UpdateComment(c);
+            comentarios[c.UserName] = c;
+        }
+        else
+        {
+            db.InsertComment(c);
+            comentarios.Add(c.UserName, c);
+        }
+        
+
+    }
+}

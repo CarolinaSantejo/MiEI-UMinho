@@ -1,0 +1,233 @@
+﻿@page "/MyProfileJ/journConfig"
+
+@using DataAccessLibrary
+@using NewsBookLN.GestUtilizadores
+@using System.Data.SqlClient
+@inject NavigationManager NavigationManager
+@inject LoginState loginState
+@inject IPeopleData db
+@inject ICountryData dbC
+@inject ICategoriaData dbCat
+@inject IJornalistaData dbJ
+@inject ICountryData dbCt
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="w3-container">
+
+    <!-- Perfil -->
+    @if (userLogged != null)
+    {
+        <div class="w3-container w3-display-topmiddle w3-border" style="width:500px;height:125px;margin-top:2%;padding:5px">
+            <div class="w3-container w3-cell" style="padding:0px">
+                <img src="img/avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px;margin:10px">
+            </div>
+
+            <div class="w3-container w3-cell" style="padding:0px">
+                <h5 style="display: inline-block">@userLogged.Nome </h5>
+                <p class="w3-opacity" style="font-size:13px; margin-top:-11px;">@@@userLogged.UserName from @paisNome, @userLogged.Cidade</p>
+                @if (userLogged.LinkedIn != null)
+                {
+                    <p class="w3-opacity" style="font-size:13px; margin-top:-11px;">LinkedIn: @@@userLogged.LinkedIn </p>
+                }
+                <p style="font-size:13px; margin-top:-5px;"> @userLogged.Biografia </p>
+            </div>
+        </div>
+    }
+
+
+</div>
+<div class="config">
+    <EditForm Model="@user" OnValidSubmit="@SaveConfig">
+
+        <div>
+            <br />
+        </div>
+        <div>
+            <h4 style="color:black;font-weight:bold; font-family:sans-serif">Configurations</h4>
+        </div>
+        <div>
+            <br />
+        </div>
+        <div class="col-12 row">
+            <input class="form-control col-12" @bind-value="user.Nome" placeholder="First & Last Name" />
+        </div>
+        <br />
+        <div class="col-12 row">
+            <input type="password" class="form-control col-12" @bind-value="user.Password" placeholder="New Password" />
+        </div>
+        <br />
+        <div class="col-12 row">
+            <input class="form-control col-12" @bind-value="user.Cidade" placeholder="City" />
+        </div>
+        <br />
+        <div class="col-12 row">
+            <input class="form-control col-12" @bind-value="user.Biografia" placeholder="Biography" />
+        </div>
+        <br />
+        <div class="col-12 row">
+            <input class="form-control col-12" @bind-value="user.LinkedIn" placeholder="LinkedIn" />
+        </div>
+        <br />
+        @if (paises != null)
+        {
+            <div class="col-12 row">
+                <select class="form-control selectpicker" @bind="user.Country_IdCountry">
+                    <option value="">Select your Country</option>
+                    @foreach (var item in paises)
+                    {
+                        <option value=@item.IdCountry>@item.Nome</option>
+                    }
+                </select>
+            </div>
+        }
+        <br />
+        <h6 style="font-weight:bold; color:black; font-family:sans-serif">Favourite categories: </h6>
+        <form method="post">
+            @if (categorias != null)
+            {
+                @foreach (var item in categorias)
+                {
+                    <input name="AreChecked" type="checkbox" value="@item.Selected" @bind="@item.Selected" />
+                    <h7 style="color:black; font-family:sans-serif"> @item.Nome &nbsp &nbsp&nbsp</h7>
+                }
+            }
+        </form>
+        <br />
+        <div class="w3-container" style="font-family:sans-serif">
+            <button onclick="document.getElementById('popup').style.display='block'" class="form-control col-6 btn btn-primary" style="font-family:sans-serif">Save changes</button>
+            <a href="/MyProfileJ" class="col-6">Cancel</a>
+            <div id="popup" class="w3-modal">
+                <div class="w3-modal-content" style="width:270px; height:140px; font-family:sans-serif">
+                    <span onclick="document.getElementById('popup').style.display='none'" class="w3-button w3-display-topright"><i class="fa fa-close"></i></span>
+                    <div class="w3.container" style="text-align:center">
+                        <br><br><label>Please insert current password:</label>
+                        <input id="pass" type=password @bind-value=@confirmPassword>
+                    </div>
+                    <span class="col-12"></span>
+                    <input type="submit" class="form-control col-6 btn btn-primary" value="Save changes" />
+                </div>
+            </div>
+        </div>
+        <div class="col-12 row" style="text-align:left; font-weight:bold; color:red">
+            <span class="col-12">@LoginMesssage</span>
+        </div>
+    </EditForm>
+</div>
+<style>
+    .config {
+        margin-left: 30%;
+        margin-right: 50%;
+        margin-top: 7%;
+        width: 40%
+    }
+</style>
+@code {
+    Jornalista user = new Jornalista();
+    Jornalista userLogged = new Jornalista();
+    private List<Country> paises;
+    private List<Categoria> categorias;
+    string confirmPassword;
+    private List<int> catSelected = new List<int>();
+    public string LoginMesssage { get; set; }
+    string paisNome;
+    List<int> catFav = null;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        List<Utilizador> userGet = null;
+        if (loginState.UserIDlogged.Length > 0)
+            userGet = await db.GetPerson(loginState.UserIDlogged);
+
+        if (userGet != null && userGet.Count > 0)
+        {
+            Utilizador user = userGet[0];
+            List<Jornalista> jornL = await dbJ.GetJornalista(loginState.UserIDlogged);
+            userLogged = new Jornalista(user.Country_IdCountry, user.UserName, user.Email, user.Password, user.Nome,user.Cidade, jornL[0].Biografia, jornL[0].LinkedIn);
+            List<Country> cL = await dbCt.GetPais(userLogged.Country_IdCountry);
+            paisNome = cL[0].Nome;
+            if (catFav == null)
+                catFav = await db.getFavCategouries(loginState.UserIDlogged);
+
+        }
+
+        paises = await dbC.GetPaises();
+        categorias = await dbCat.GetCategorias();
+        if (categorias != null && catFav != null)
+        {
+            foreach (Categoria c in categorias)
+            {
+                if (catFav.Contains(c.IdCategoria)) c.Selected = true;
+            }
+
+        }
+
+
+
+
+    }
+    private async Task<bool> SaveConfig()
+    {
+        if (userLogged != null && userLogged.Password.Equals(confirmPassword))
+        {
+
+            foreach (Categoria c in categorias)
+            {
+                if (c.Selected)
+                {
+                    catSelected.Add(c.IdCategoria);
+                }
+            }
+            if (user.Password == null || user.Password.Equals("")) user.Password = userLogged.Password;
+            if (user.Country_IdCountry == null || user.Country_IdCountry.Equals("")) user.Country_IdCountry = userLogged.Country_IdCountry;
+            if (user.Nome == null || user.Nome.Equals("")) user.Nome = userLogged.Nome;
+            if (user.Cidade == null || user.Cidade.Equals("")) user.Cidade = null;
+            if (user.Password.Length > 4)
+            {
+                try
+                {
+                    Utilizador p = new Utilizador
+                    {
+                        Nome = user.Nome,
+                        Password = user.Password,
+                        Email = user.Email,
+                        UserName = userLogged.UserName,
+                        Cidade = user.Cidade,
+                        Fotografia = userLogged.Fotografia,
+                        Country_IdCountry = user.Country_IdCountry,
+                        CategoriasFav = catSelected
+                    };
+
+                    await db.updateUserProfile(p);
+                    user.UserName = userLogged.UserName;
+                    await dbJ.updateUserProfile(user);
+                    if (catSelected != null)
+                    {
+                        await dbCat.deleteCategoriasFav(loginState.UserIDlogged, catFav);
+                        if (catSelected.Count() > 0)
+                            await dbCat.InsertUserCategorias(p);
+                    }
+                    NavigationManager.NavigateTo("/MyProfileJ");
+                }
+                catch (SqlException)
+                {
+                    LoginMesssage = "Invalid Parameters";
+                }
+
+            }
+            else LoginMesssage = "New password is too short";
+
+
+        }
+        else
+        {
+            LoginMesssage = "Passwords not matching";
+        }
+
+        return await Task.FromResult(true);
+    }
+}

@@ -1,0 +1,29 @@
+﻿
+    
+
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-lg-row-reverse">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="OpinionArticles">
+                <span class="oi oi-list-rich" aria-hidden="true"></span>Opinion Articles
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="/Users/People">
+                <span class="oi oi-people" aria-hidden="true"></span>People
+            </NavLink>
+        </li>
+    </ul>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

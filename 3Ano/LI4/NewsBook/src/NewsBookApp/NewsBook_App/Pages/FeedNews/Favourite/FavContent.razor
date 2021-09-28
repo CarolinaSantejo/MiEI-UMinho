@@ -1,0 +1,141 @@
+﻿@using DataExternalAPI
+@using DataAccessLibrary
+@using NewsBookLN.GestPublicacoes
+@using NewsBookLN.GestUtilizadores
+@using System.Data.SqlClient
+@inject LoginState loginState
+@inject IPeopleData db
+@inject ICategoriaData db2
+@inject IPublicacaoData dbP
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="margin-top:0%;margin-left:15%;max-width:70%;">
+    <div class="w3-row">
+        <!-- The Grid -->
+        <!-- Middle Column -->
+        @if (myDictionary != null)
+        {
+            @foreach (Noticia entry in noticiasFav)
+            {
+                <div class="w3-col s6">
+                    <div class="w3-display-container w3-card w3-white w3-round" style="height:600px;max-height:600px;margin:10px;padding:10px">
+                        <span class="w3-right w3-opacity" style="margin-top:5px">@entry.Data</span>
+                        <h4 style="font-weight: bold;">@entry.Titulo</h4>
+                        <hr><p style="text-align:justify">@entry.Descricao</p>
+
+                        <a target="_blank" class="font-weight-bold" href=@entry.Url><button class="w3-button w3-padding-large w3-white w3-border" style="font-size:70%"><b>READ MORE »</b></button></a>
+
+                        @if (entry.Imagem != null)
+                        {
+                            <img src=@entry.Imagem style="max-width:400px;display: block;margin: 20px auto;">
+                        }
+
+                        <hr>
+                        <button type="button" class="w3-button w3-margin-bottom w3-display-bottomright" @onclick="@(() => addRemNoticia(entry))">
+                            @if (notGuardadas.Contains(entry.IdPublicacao))
+                            {<i class="fa fa-bookmark"></i>}
+                            else
+                            {<i class="fa fa-bookmark-o"></i>}
+                            Save
+                        </button>
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+</div>
+
+<br>
+
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+</footer>
+<footer class="w3-container w3-theme-d5">
+    <p>Powered by TakingCtrl</p>
+</footer>
+
+@code {
+    NoticiaExtData news;
+    List<Noticia> noticiasFav = new List<Noticia>();
+    IDictionary<int, Noticia> myDictionary;
+    List<int> notGuardadas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        List<Utilizador> user = await db.GetPerson(loginState.UserIDlogged);
+        if (user != null && user.Count > 0)
+        {
+            news = new NoticiaExtData(user[0].Country_IdCountry);
+            List<int> categoriasFav = await db.getFavCategouries(user[0].UserName);
+            if (categoriasFav != null && categoriasFav.Count > 0)
+            {
+                foreach (int cat in categoriasFav)
+                {
+                    List<Categoria> categoria = await db2.GetCategoria(cat);
+                    news.getByCategory(categoria[0].Nome);
+                    myDictionary = news.Noticias;
+                    foreach (Noticia entry in myDictionary.Values)
+                    {
+                        noticiasFav.Add(entry);
+                    }
+                }
+            }
+        }
+        notGuardadas = await dbP.GetNoticiasGuardadas(loginState.UserIDlogged);
+    }
+
+    public async void addRemNoticia(Noticia n)
+    {
+        int jaExiste = -1;
+        IDictionary<string, Noticia> pubGuardadas = new Dictionary<string, Noticia>();
+
+
+        foreach (int p in notGuardadas)
+        {
+            List<Publicacao> pubList = await dbP.GetPublicacao(p);
+            List<Noticia> notList = await dbP.GetNoticia(p);
+            Publicacao pub = null;
+            Noticia not = null;
+            if (pubList != null && notList != null)
+            {
+                not = notList[0];
+                pub = pubList[0];
+                not.IdPublicacao = pub.IdPublicacao;
+                not.Titulo = pub.Titulo;
+                not.Data = pub.Data;
+                not.Descricao = pub.Descricao;
+                not.Imagem = pub.Imagem;
+                pubGuardadas.Add(not.Titulo, not);
+            }
+
+        }
+        if (pubGuardadas.ContainsKey(n.Titulo))
+            jaExiste = pubGuardadas[n.Titulo].IdPublicacao;
+        if (jaExiste == -1)
+        {
+            await dbP.InsertNoticiaInPub(n);
+            await dbP.InsertNoticia(n);
+            await dbP.InsertNoticiaGuardada(n, loginState.UserIDlogged);
+        }
+        else
+        {
+            await dbP.deleteNoticiaGuardada(jaExiste, loginState.UserIDlogged);
+            try
+            {
+                await dbP.deleteNoticia(jaExiste);
+                await dbP.deleteNoticiaInPub(jaExiste);
+            }
+            catch (SqlException){}
+        }
+        notGuardadas = await dbP.GetNoticiasGuardadas(loginState.UserIDlogged);
+    }
+}

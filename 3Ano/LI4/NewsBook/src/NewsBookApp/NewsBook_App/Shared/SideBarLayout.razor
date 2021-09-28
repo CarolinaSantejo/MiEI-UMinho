@@ -1,0 +1,51 @@
+﻿@inherits LayoutComponentBase
+@using Syncfusion.Blazor.Navigations
+@using Syncfusion.Blazor.Buttons
+@using NewsBookLN.GestUtilizadores
+@using DataAccessLibrary
+
+@inject ICountryData _db
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:@displayS" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-animate-left"
+                onclick="w3_close()">
+            Close &times;
+        </button>
+        <a href="#" class="w3-bar-item w3-button w3-animate-left">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button w3-animate-left">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button w3-animate-left">Link 3</a>
+    </div>
+
+    <div>
+
+        <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+        <div class="w3-container">
+            @Body
+        </div>
+    </div>
+    @code {
+        string displayS = "none";
+        void w3_open()
+        {
+            displayS= "block";
+        }
+        void w3_close()
+        {
+            displayS = "none";
+        }
+
+    }
+   
+
+    @code{
+        private List<Country> paises = new List<Country>();
+
+        protected override async Task OnInitializedAsync()
+        {
+            paises = await _db.GetPaises();
+        }
+
+    }

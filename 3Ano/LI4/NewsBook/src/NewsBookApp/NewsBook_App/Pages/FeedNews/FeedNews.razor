@@ -1,0 +1,196 @@
+﻿@page "/FeedNews"
+@using DataAccessLibrary
+@using NewsBookLN.GestUtilizadores
+@using NewsBookLN.GestPublicacoes
+@using DataExternalAPI
+@inject ICountryData db
+@inject ICategoriaData db2
+@inject IPeopleData dbP
+@inject LoginState loginState
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<div class="w3-container">
+    <style>
+        input[type=text] {
+            margin-top: 7%;
+            margin-left: 20%;
+            width: 35%;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 12px;
+            font-size: 14px;
+            background-color: white;
+            background-repeat: no-repeat;
+            padding: 8px 20px 10px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+
+            input[type=text]:focus {
+                width: 55%;
+            }
+    </style>
+
+    <form>
+        <input type="text" name="search" placeholder="Search..">
+    </form>
+
+    <Notificacoes />
+    <br />
+    <br />
+    <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="position: absolute!important;display:none;" id="sidebar">
+        <button class="w3-bar-item w3-button w3-large"
+                onclick="document.getElementById('sidebar').style.display = 'none'">
+            Close &times;
+        </button>
+        <ul class="w3-ul">
+            <br>
+
+            @if (cat != null)
+            {
+                <li style="border-bottom:none">
+                    <input type="radio" name="cat" id=1 value="" @onchange="addCategoria">
+                    <label for=1>All Categories</label>
+                </li>
+                @foreach (Categoria x in cat)
+                {
+
+                    <li style="border-bottom:none">
+                        <input type="radio" name="cat" id=@counter value="@x.Nome" @onchange="addCategoria">
+                        <label for=@counter>@x.Nome</label>
+                    </li>
+                    counter = counter + 1;
+
+                }counter = 2;
+            }
+            <br />
+            <br />
+            @if (country != null)
+            {
+                <li style="border-bottom:none">
+                    <input type="radio" name="country" id=1 value="" @onchange="addCountry">
+                    <label for=@counter>My Country</label><br>
+                </li>
+
+
+                @foreach (Country x in country)
+                {
+
+                    <li style="border-bottom:none">
+                        <input type="radio" name="country" id=@counter value="@x.IdCountry" @onchange="addCountry">
+                        <label for=@counter>@x.Nome</label><br>
+                    </li>
+                    counter = counter + 1;
+                }}
+        </ul>
+        <br />
+        <button class="w3-bar-item w3-button w3-large" @onclick="updateNews">
+            Apply filter
+        </button>
+    </div>
+    <div class="w3-bar w3-border w3-light-grey w3-center">
+        <button class="w3-bar-item w3-button w3-mobile" style="width:5.36%" onclick="document.getElementById('sidebar').style.display = 'block'">☰</button>
+        <a href="/FeedNews" style="width:23.66%" class="w3-bar-item w3-button w3-mobile w3-light-blue">Trending News</a>
+        <a href="/FeedNews/Favourite" style="width:23.66%" class="w3-bar-item w3-button w3-mobile">Favorite Themes</a>
+        <a href="/FeedNews/Media" style="width:23.66%" class="w3-bar-item w3-button w3-mobile">Media</a>
+        <a href="/FeedNews/Articles" style="width:23.66%" class="w3-bar-item w3-button w3-mobile">Opinion Articles</a>
+    </div>
+    <FeedContent MyDictionary="news" />
+</div>
+
+<style>
+
+    .search_bar.w3-border {
+        left: 21%;
+        top: 45%;
+        width: 36.66%;
+        background-color: white;
+        color: grey;
+    }
+
+    .w3-bar-item.w3-button.w3-light-grey.w3-mobile.w3-border-left {
+        left: 100%;
+        top: -5%;
+    }
+</style>
+
+
+@code
+{
+
+    IDictionary<int, Noticia> news;
+    public int counter = 2;
+    List<Categoria> cat;
+    List<Country> country;
+    string nomeCat;
+    string nomeCountry;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        cat = await db2.GetCategorias();
+        country = await db.GetPaises();
+
+    }
+
+
+    void addCategoria(ChangeEventArgs e)
+    {
+        nomeCat = e.Value.ToString();
+        loginState.CategoriaAtualizar = nomeCat;
+
+    }
+
+
+    void addCountry(ChangeEventArgs e)
+    {
+        nomeCountry = e.Value.ToString();
+        loginState.PaisAtualizar = nomeCountry;
+
+    }
+
+    async void updateNews()
+    {
+        List<Utilizador> user = await dbP.GetPerson(loginState.UserIDlogged);
+        if (user != null && user.Count > 0)
+        {
+            if ((nomeCat == null || nomeCat.Equals("")) && (nomeCountry == null || nomeCountry.Equals("")))
+            {
+
+                NoticiaExtData newsUpdate = new NoticiaExtData(user[0].Country_IdCountry);
+                newsUpdate.getTopHeadlines();
+                news = newsUpdate.Noticias;
+            }
+
+            else if (nomeCat == null || nomeCat.Equals(""))
+            {
+                NoticiaExtData newsUpdate = new NoticiaExtData(loginState.PaisAtualizar);
+                newsUpdate.getTopHeadlines();
+                news = newsUpdate.Noticias;
+            }
+
+            else if (nomeCountry == null || nomeCountry.Equals(""))
+            {
+                NoticiaExtData newsUpdate = new NoticiaExtData(user[0].Country_IdCountry);
+                newsUpdate.getByCategory(loginState.CategoriaAtualizar);
+                news = newsUpdate.Noticias;
+            }
+
+            else
+            {
+                NoticiaExtData newsUpdate = new NoticiaExtData(loginState.PaisAtualizar);
+                newsUpdate.getByCategory(loginState.CategoriaAtualizar);
+                news = newsUpdate.Noticias;
+            }
+        }
+    }
+
+}

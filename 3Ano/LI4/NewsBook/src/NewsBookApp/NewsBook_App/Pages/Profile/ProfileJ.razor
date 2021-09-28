@@ -1,0 +1,172 @@
+﻿@page "/ProfileJ/{journalistId}"
+@inject LoginState loginState
+@inject IPeopleData db
+@inject ICountryData db3
+@inject IJornalistaData db2
+@inject IArtigoData db4
+@inject ICategoriaData dbCat
+@inject IPublicacaoData dbP
+@using DataAccessLibrary
+@using NewsBookLN.GestPublicacoes
+@using NewsBookLN.GestUtilizadores
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="w3-container">
+    <div class="w3-container w3-display-middle" style="position: fixed; width: 46%;overflow-y:scroll; top: 65%;height:70%; padding-bottom: 70px">
+        <i style="font-size:20px"></i><b>&nbsp @nome's Articles </b><hr>
+        <ul class="w3-ul">
+            <li>
+                @if (artigosF != null)
+                {
+                    @foreach (Artigo a in artigosF)
+                    {
+                        <div class="w3-container w3-card w3-white w3-round w3-margin">
+                            <span class="w3-right w3-opacity" style="margin-top:5px">@a.Data</span>
+                            <h4 style="font-weight: bold;">@a.Titulo</h4>
+                            <br />
+                            <p class="w3-opacity" style="font-size:15px">@a.Descricao</p>
+                            <hr><p style="text-align:justify">@a.Conteudo</p>
+                            <img src=@a.Imagem style="max-width:400px;display: block;margin: 20px auto;">
+                        </div>
+                    }
+                }
+            </li>
+        </ul>
+    </div>
+
+    <!-- Perfil -->
+    <div class="w3-container w3-display-topmiddle w3-border" style="width:500px;height:125px;margin-top:4%;padding:10px">
+        <div class="w3-container w3-cell" style="padding:0px">
+            <img src="img/avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px;margin:10px">
+        </div>
+
+        <div class="w3-container w3-cell" style="padding:0px">
+            <h5 style="display: inline-block">@nome</h5>
+            <br />
+            <p class="w3-opacity" style="font-size:13px; margin-top:-11px;">@@@JournalistId &nbsp from @pais, @cidade</p>
+            <p class="w3-opacity" style="font-size:13px; margin-top:-11px;">LinkedIn: @@@linkedin </p>
+            <p style="font-size:13px; margin-top:-5px;">@bio</p>
+        </div>
+    </div>
+
+    <div>
+        @if (followAux == 1)
+        {
+            <p><button class="w3-button w3-grey w3-round" style=" margin-top:5%; margin-left:70%" @onclick="unfollow">Unfollow</button></p>
+        }
+        else
+        {
+            <p><button class="w3-button w3-light-blue w3-round" style="margin-top: 5%; margin-left: 70%" @onclick="follow">Follow</button></p>
+        }
+    </div>
+
+
+    <!-- Categorias Favoritas -->
+    <div class="w3-container w3-display-topright" style="margin-top:12%;margin-right:5%">
+        <i class='fa fa-list-ul' style="font-size:20px"></i><b>&nbsp Favourite Categories</b><br>
+        <div class="w3-container" style="width:220px;padding:0px">
+            <p>
+                @if (catList != null)
+                {
+
+                    @foreach (KeyValuePair<int, string> cat in catFav)
+                    {
+                        <span id=@cat.Key class="w3-tag w3-button w3-padding-small w3-small" style="margin:3px">@cat.Value &nbsp;&nbsp;</span>
+                    }
+
+                }
+
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+@code {
+    [Parameter]
+    public string JournalistId { get; set; }
+    String cidade;
+    String nome;
+    String pais;
+    String bio;
+    String linkedin;
+    List<Artigo> artigos;
+    List<int> catList;
+    List<Artigo> artigosF = new List<Artigo>();
+    IDictionary<int, string> catFav = new Dictionary<int, string>();
+    int followAux = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        List<Utilizador> user = await db.GetPerson(JournalistId);
+        List<Jornalista> juser = await db2.GetJornalista(JournalistId);
+        if (user != null && user.Count > 0 && juser != null && juser.Count > 0)
+        {
+            List<Country> paises = await db3.GetPais(user[0].Country_IdCountry);
+            nome = user[0].Nome;
+            if (user[0].Cidade != null) cidade = user[0].Cidade;
+            catList = await db.getFavCategouries(JournalistId);
+            pais = paises[0].Nome;
+            if (juser[0].Biografia != null) bio = juser[0].Biografia;
+            artigos = await db4.GetArtigosUser(JournalistId);
+
+            if (juser[0].LinkedIn != null) linkedin = juser[0].LinkedIn;
+            if (catList != null)
+            {
+                foreach (int c in catList)
+                {
+                    List<Categoria> catAux = await dbCat.GetCategoria(c);
+                    String nome = catAux[0].Nome;
+                    catFav.Add(c, nome);
+                }
+            }
+            if (artigos != null)
+            {
+                foreach (Artigo a in artigos)
+                {
+                    List<Publicacao> pub = await dbP.GetPublicacao(a.IdPublicacao);
+                    Artigo newArtigo = new Artigo(pub[0].IdPublicacao, pub[0].Titulo, pub[0].Data, pub[0].Descricao, pub[0].Imagem, a.UserNameJornalista, a.Conteudo);
+                    artigosF.Add(newArtigo);
+                }
+            }
+            List<Utilizador> user2 = await db.GetPerson(loginState.UserIDlogged);
+            if (user2 != null && user2.Count > 0)
+            {
+                List<String> follows = await db2.GetJornalistasSeguidos(user2[0].UserName);
+                foreach(String s in follows)
+                {
+                    if (s.Equals(JournalistId)) followAux = 1;
+                }
+            }
+        }
+
+    }
+
+    async void follow()
+    {
+        followAux = 1;
+        List<Utilizador> user = await db.GetPerson(loginState.UserIDlogged);
+        if (user != null && user.Count > 0)
+        {
+            await db.InsertFollow(user[0].UserName,JournalistId);
+        }
+    }
+
+    async void unfollow()
+    {
+        followAux = 0;
+        List<Utilizador> user = await db.GetPerson(loginState.UserIDlogged);
+        if (user != null && user.Count > 0)
+        {
+            await db.RemoveFollow(user[0].UserName, JournalistId);
+        }
+    }
+}

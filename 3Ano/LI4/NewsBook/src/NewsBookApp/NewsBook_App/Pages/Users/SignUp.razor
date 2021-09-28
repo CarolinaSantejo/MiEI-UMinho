@@ -1,0 +1,185 @@
+﻿@layout CenteredCardLayout
+@page  "/signup"
+
+@using DataAccessLibrary
+@using NewsBookLN
+@using NewsBookLN.GestUtilizadores
+@using NewsBook_App.Models
+@using System.Data.SqlClient
+
+@using System.Security.Claims
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject IPeopleData _db
+@inject ICountryData _dbC
+@inject ICategoriaData _dbCat
+@inject IJornalistaData _dbJ
+@inject LoginState loginState
+
+
+<EditForm Model="@user" OnValidSubmit="@RegisterUser">
+
+    <div>
+        <br />
+    </div>
+    <div>
+        <h2 style="font-weight:bold; color:lightblue; font-family:sans-serif">NewsBook</h2>
+        <h4 style="color:black; font-family:sans-serif">Register</h4>
+    </div>
+    <div>
+        <br />
+    </div>
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind-value="user.UserName" placeholder="UserName" />
+    </div>
+    <br />
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind-value="user.Email" placeholder="Email address" />
+    </div>
+    <br />
+    <div class="col-12 row">
+        <input type="password" class="form-control col-12" @bind-value="user.Password" placeholder="Password" />
+    </div>
+    <br />
+    <div class="col-12 row">
+        <input type="password" class="form-control col-12" @bind-value="confirmPassword" placeholder="Confirm Password" />
+    </div>
+    <br />
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind-value="user.Nome" placeholder="First & Last Name" />
+    </div>
+    <br />
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind-value="user.Cidade" placeholder="City" />
+    </div>
+    <br />
+    @if (paises != null)
+    {
+        <div class="col-12 row">
+            <select class="form-control selectpicker" @bind="user.Country_IdCountry">
+                <option value="">Select your Country</option>
+                @foreach (var item in paises)
+                {
+                    <option value=@item.IdCountry>@item.Nome</option>
+                }
+            </select>
+        </div>
+    }
+    <br />
+    <h6 style="font-weight:bold; color:black; font-family:sans-serif">Favourite categories: </h6>
+    <form method="post">
+        @if (categorias != null)
+        {
+            @foreach (var item in categorias)
+            {
+                <input name="AreChecked" type="checkbox" @bind-value="@item.Selected" />
+                <h7 style="color:black; font-family:sans-serif"> @item.Nome &nbsp &nbsp&nbsp</h7>
+            }
+        }
+    </form>
+    <br />
+    <form method="post" style="text-align: left">
+        <h7 style="color:black;  font-weight:bold; font-family:sans-serif"> &nbsp &nbsp&nbsp Are you a journalist? &nbsp</h7>
+        <input name="AreChecked" type="checkbox" @bind-value="@eJornalista" />
+    </form>
+    <br />
+    <div class="col-12 row">
+        <span class="col-12"></span>
+        <input type="submit" class="form-control col-6 btn btn-primary" value="Sign up" />
+        <a href="/" class="col-6">Already an user?</a>
+    </div>
+    <br />
+    <div class="col-12 row" style="text-align:left; font-weight:bold; color:red">
+        <span class="col-12">@LoginMesssage</span>
+    </div>
+    <div class="col-12 row" style="text-align:left; font-weight:bold">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+    </div>
+</EditForm>
+
+@code {
+    private DisplayPersonModel user = new DisplayPersonModel();
+    //private Utilizador user;
+    private string confirmPassword;
+    private List<Categoria> categorias;
+    private List<Country> paises;
+    private List<int> catSelected = new List<int>();
+    private List<Utilizador> people;
+    private List<int> values;
+    private bool eJornalista = false;
+    public string LoginMesssage { get; set; }
+
+
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        categorias = await _dbCat.GetCategorias();
+        people = await _db.GetPeople();
+        paises = await _dbC.GetPaises();
+
+
+    }
+
+    private async Task<bool> RegisterUser()
+    {
+        if (user.Password.Equals(confirmPassword))
+        {
+            foreach (Categoria c in categorias)
+            {
+                if (c.Selected)
+                {
+                    catSelected.Add(c.IdCategoria);
+                }
+            }
+            Utilizador p = new Utilizador
+            {
+                Nome = user.Nome,
+                Password = user.Password,
+                Email = user.Email,
+                UserName = user.UserName,
+                Cidade = user.Cidade,
+                Fotografia = user.Fotografia,
+                Country_IdCountry = user.Country_IdCountry,
+                CategoriasFav = catSelected
+            };
+            try
+            {
+                await _db.InsertPerson(p);
+                if (eJornalista)
+                {
+                    Jornalista j = new Jornalista(user.UserName);
+                    await _dbJ.InsertJornalista(j);
+                    loginState.JOrU = true;
+                }
+                else
+                    loginState.JOrU = false;
+                loginState.UserIDlogged = user.UserName;
+                NavigationManager.NavigateTo("/FeedNews");
+            }
+            catch (SqlException e) //when (e.Number == 2601)
+            {
+                LoginMesssage = "Username or email already exists!";
+            }
+            if (catSelected.Count() > 0) {
+                await _dbCat.InsertUserCategorias(p);
+            }
+
+        }
+        else
+        {
+            LoginMesssage = "Passwords not matching";
+        }
+
+        return await Task.FromResult(true);
+    }
+
+    private void handleClick(string itemId)
+    {
+
+    }
+
+
+}

@@ -1,0 +1,222 @@
+﻿@page "/MyProfile"
+@using DataAccessLibrary
+@using NewsBookLN.GestPublicacoes
+@using NewsBookLN.GestUtilizadores
+@inject IPublicacaoData dbP
+@inject IJornalistaData dbJ
+@inject IPeopleData db
+@inject ICategoriaData dbCat
+@inject ICountryData dbCt
+@inject LoginState loginState
+@using System.Data.SqlClient
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <div class="w3-container">
+        <!-- Jornalistas Seguidos -->
+        <div class="w3-card-4 w3-display-left" style="height:350px; width:200px; margin-top:30%; margin-left:5%">
+            <header class="w3-container w3-light-grey">
+                <h5>Following Journalists</h5>
+            </header>
+            <ul class="w3-ul">
+                @if (jFollowed != null)
+                {
+                    @foreach (string u in jFollowed)
+                    {
+                        <li>
+                            <img src="img/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:15%;">
+                            <h5 style="margin:0px;padding:0px">@u</h5>
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
+
+        <!-- Notícias Guardadas -->
+        <div class="w3-container w3-display-middle" style="position: fixed; width: 650px;overflow-y:scroll; top: 65%;height:70%; padding-bottom: 70px">
+            <i class='fa fa-bookmark' style="position:sticky; font-size:20px"></i><b>&nbsp Your Saved News</b><hr>
+            <ul class="w3-ul">
+                <li>
+                    @if (pubGuardadas != null)
+                    {
+                        @foreach (Noticia entry in pubGuardadas)
+                        {
+                            <div class="w3-container w3-card w3-white w3-round w3-margin">
+                                <br />
+                                <span class="w3-right w3-opacity">@entry.Data</span>
+                                <h4 style="font-weight: bold">@entry.Titulo</h4><br>
+                                <hr class="w3-clear">
+                                <p>@entry.Descricao</p>
+                                <div class="w3-row-padding" style="margin:0 -16px">
+                                    <div class="w3-col m8 s12">
+                                        <a target="_blank" class="font-weight-bold" href=@entry.Url>
+                                            <p>
+                                                <button class="w3-button w3-padding-large w3-white w3-border" style="font-size:70%"><b>READ MORE »</b></button>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    @if (entry.Imagem != null)
+                                    {
+                                        <div class="w3-half">
+                                            <img src=@entry.Imagem style="width:80%;margin: 20px auto">
+                                        </div>
+                                    }
+                                    <br />
+
+                                </div>
+                                <hr class="w3-clear">
+                                <button type="button" class="w3-button w3-right" @onclick="@(() => remNoticia(entry))">
+                                    <i class="fa fa-trash"></i>
+                                    Remove
+                                </button>
+                            </div>
+                        }
+                    }
+                </li>
+            </ul>
+        </div>
+
+        <!-- Perfil -->
+        @if (userLogged != null)
+        {
+            <div class="w3-container w3-display-topmiddle w3-border" style="width:500px;height:125px;margin-top:2%;padding:5px">
+                <div class="w3-container w3-cell" style="padding:0px">
+                    <img src="img/avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px;margin:10px">
+                </div>
+
+                <div class="w3-container w3-cell" style="padding:0px">
+                    <h5 style="display: inline-block">@userLogged.Nome </h5>
+                    <a href="/MyProfile/userConfig">
+                        <button class="w3-button w3-xlarge w3-display-topright" style="margin-right:5px;padding:5px;"><i class="fa fa-cog"></i></button>
+                    </a>
+                    <p class="w3-opacity" style="font-size:13px; margin-top:-11px;">@@@userLogged.UserName from @paisNome, @userLogged.Cidade</p>
+                </div>
+            </div>
+        }
+
+        <!-- Categorias Favoritas -->
+        <div class="w3-container w3-display-topright" style="margin-top:12%;margin-right:7%">
+            <i class='fa fa-list-ul' style="font-size:20px"></i><b>&nbsp Favourite Categories</b><br>
+            <div class="w3-container" style="width:220px;padding:0px">
+                <p>
+                    @if (catFav != null && categorias != null)
+                    {
+
+                        @foreach (int cat in catFav)
+                        {
+                            <span id=@cat onclick="document.getElementById(@cat).style.display='none'" class="w3-tag w3-button w3-padding-small w3-small" style="margin:3px">@categorias[cat].Nome&nbsp;&nbsp;</span>
+
+                        }
+
+                    }
+
+                </p>
+            </div>
+            @if (categorias != null)
+            {
+                <select class="w3-select w3-light-grey" name="option" style="width:120px; border:none; padding:5px; font-size:12px" @onchange=addCategoriaFav>
+                    <option value=-1 disabled selected>Add Category</option>
+
+                    @foreach (Categoria c in categorias.Values)
+                    {
+                        @if (!catFav.Contains(c.IdCategoria))
+                        {
+                            <option value=@c.IdCategoria>@c.Nome</option>
+                        }
+                    }
+
+                </select>
+
+            }
+        </div>
+    </div>
+</body>
+@code {
+    List<string> jFollowed;
+    List<int> notGuardadas;
+    List<Noticia> pubGuardadas = new List<Noticia>();
+    Utilizador userLogged = new Utilizador();
+    IDictionary<int, Categoria> categorias;
+    List<int> catSelected = new List<int>();
+    List<int> catFav;
+    int addCateg = -1;
+    string paisNome;
+    int i = 0;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        List<Utilizador> userGet = null;
+        if (loginState.UserIDlogged.Length > 0)
+            userGet = await db.GetPerson(loginState.UserIDlogged);
+        if (userGet != null && userGet.Count > 0)
+        {
+            userLogged = userGet[0];
+            List<Country> cL = await dbCt.GetPais(userLogged.Country_IdCountry);
+            paisNome = cL[0].Nome;
+            jFollowed = await dbJ.GetJornalistasSeguidos(userLogged.UserName);
+            notGuardadas = await dbP.GetNoticiasGuardadas(userLogged.UserName);
+
+            foreach (int p in notGuardadas)
+            {
+                List<Publicacao> pubList = await dbP.GetPublicacao(p);
+                List<Noticia> notList = await dbP.GetNoticia(p);
+                Publicacao pub = null;
+                Noticia not = null;
+                if (pubList != null && notList != null)
+                {
+                    not = notList[0];
+                    pub = pubList[0];
+                    not.Titulo = pub.Titulo;
+                    not.Data = pub.Data;
+                    not.Descricao = pub.Descricao;
+                    not.Imagem = pub.Imagem;
+                    pubGuardadas.Add(not);
+                }
+
+            }
+            catFav = await db.getFavCategouries(userLogged.UserName);
+        }
+        if (categorias == null)
+        {
+            List<Categoria> catList = await dbCat.GetCategorias();
+            categorias = new Dictionary<int, Categoria>();
+            foreach (Categoria cat in catList)
+            {
+                categorias.Add(cat.IdCategoria, cat);
+            }
+        }
+        if (addCateg != -1)
+        {
+
+            catFav.Add(addCateg);
+        }
+
+    }
+
+    void addCategoriaFav(ChangeEventArgs e)
+    {
+        addCateg = Convert.ToInt32(e.Value.ToString());
+        if (addCateg != -1)
+        {
+            catFav.Add(addCateg);
+            db.InsertCategoriaFav(loginState.UserIDlogged, addCateg);
+        }
+    }
+
+    async void remNoticia(Noticia n)
+    {
+        pubGuardadas.Remove(n);
+        await dbP.deleteNoticiaGuardada(n.IdPublicacao, loginState.UserIDlogged);
+        try
+        {
+            await dbP.deleteNoticia(n.IdPublicacao);
+            await dbP.deleteNoticiaInPub(n.IdPublicacao);
+        }
+        catch (SqlException) { }
+    }
+
+}

@@ -1,0 +1,96 @@
+﻿@page "/Users/People"
+
+@using DataAccessLibrary
+@using NewsBookLN.GestUtilizadores
+@using NewsBook_App.Models
+
+@inject IPeopleData _db
+@inject LoginState userIDlogged
+
+<h1>Utilizador</h1>
+
+<h4>Insert New Person</h4>
+<EditForm Model="@newPerson" OnValidSubmit="@InsertPerson">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+ 
+    <InputText id="username" @bind-Value="newPerson.UserName" />
+    <InputText id="email" @bind-Value="newPerson.Email" />
+    <InputText id="password" @bind-Value="newPerson.Password" />
+    <InputText id="nome" @bind-Value="newPerson.Nome" />
+    <InputText id="cidade" @bind-Value="newPerson.Cidade" />
+    <InputFile id="fotografia" @bind-Value="newPerson.Fotografia" />
+    <InputText id="pais" @bind-Value="newPerson.Country_IdCountry" />
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+<h4>Current People</h4>
+@if (people is null)
+{
+    <p><em>Loading ...</em></p>
+
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Password</th>
+                <th>Email</th>
+                <th>UserName</th>
+                <th>Cidade</th>
+                <th>Fotografia</th>
+                <th>Country_IdCountry</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var person in people)
+            {
+            <tr>
+                <td>@person.Nome</td>
+                <td>@person.Password</td>
+                <td>@person.Email</td>
+                <td>@person.UserName</td>
+                <td>@person.Cidade</td>
+                <td>@person.Fotografia</td>
+                <td>@person.Country_IdCountry</td>
+
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code {
+   
+    private List<Utilizador> people;
+    private DisplayPersonModel newPerson = new DisplayPersonModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        people = await _db.GetPeople();
+    }
+
+    private async Task InsertPerson()
+    {
+        Utilizador p = new Utilizador
+        {
+            Nome = newPerson.Nome,
+            Password = newPerson.Password,
+            Email = newPerson.Email,
+            UserName = newPerson.UserName,
+            Cidade = newPerson.Cidade,
+            Fotografia = newPerson.Fotografia,
+            Country_IdCountry = newPerson.Country_IdCountry
+        };
+
+        await _db.InsertPerson(p);
+
+        people.Add(p);
+
+        newPerson = new DisplayPersonModel();
+    }
+}

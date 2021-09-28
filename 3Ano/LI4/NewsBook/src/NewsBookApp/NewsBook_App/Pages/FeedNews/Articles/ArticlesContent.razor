@@ -1,0 +1,77 @@
+﻿@using DataExternalAPI
+@using DataAccessLibrary
+@using NewsBookLN.GestPublicacoes
+@using NewsBookLN.GestUtilizadores
+@inject LoginState loginState
+@inject IArtigoData db2
+@inject IPeopleData db
+@inject IPublicacaoData dbP
+@inject NavigationManager NavigationManager
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="w3-container w3-content" style="margin-top:0%;margin-left:15%;max-width:70%;">
+    @if (artigos != null)
+    {
+        foreach (Artigo a in artigos)
+        {
+            <div class="w3-row">
+                <div class="w3-container w3-card w3-white w3-round w3-margin">
+                    <span class="w3-right w3-opacity" style="margin-top:5px">@a.Data</span>
+                    <img src="/img/avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px;margin:10px 5px">
+                    <a style="text-decoration:underline" href="/ProfileJ/@a.UserNameJornalista"><h5>@nomesJornalistas[a.IdPublicacao]</h5></a>
+                    <h4 style="font-weight: bold; margin-top:-10px">@a.Titulo</h4>
+                    <br />
+                    <p class="w3-opacity" style="font-size:15px">@a.Descricao</p>
+                    <hr><p style="text-align:justify">@a.Conteudo</p>
+                    @if (a.Imagem != null)
+                    {
+                        <img src=@a.Imagem style="width:80%;display: block;margin: 20px auto;">
+                    }
+
+                    <Comentarios ArtComent="a" />
+
+                </div>
+            </div>
+        }
+    }
+</div>
+<br>
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+</footer>
+<footer class="w3-container w3-theme-d5">
+    <p>Powered by TakingCtrl</p>
+</footer>
+
+@code {
+    List<Artigo> artigos;
+    IDictionary<int, string> nomesJornalistas = new Dictionary<int, string>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        artigos = new List<Artigo>();
+        List<Artigo> art = await db2.GetArtigos();
+        foreach (Artigo a in art)
+        {
+            List<Publicacao> pub = await dbP.GetPublicacao(a.IdPublicacao);
+            Artigo newArtigo = new Artigo(pub[0].IdPublicacao, pub[0].Titulo, pub[0].Data, pub[0].Descricao, pub[0].Imagem, a.UserNameJornalista, a.Conteudo);
+            artigos.Add(newArtigo);
+            List<Utilizador> u = await db.GetPerson(a.UserNameJornalista);
+            string nome = u[0].Nome;
+            nomesJornalistas.Add(newArtigo.IdPublicacao, nome);
+        }
+        artigos.Reverse();
+    }
+
+}
+
+
+
+
+

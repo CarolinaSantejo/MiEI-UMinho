@@ -1,0 +1,94 @@
+﻿@layout CenteredCardLayout
+@page  "/"
+
+@using DataAccessLibrary
+@using NewsBookLN
+@using NewsBookLN.GestUtilizadores
+
+@using System.Security.Claims
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject IPeopleData _db
+@inject IJornalistaData _db2
+@inject LoginState loginState
+
+<EditForm Model="@user" OnValidSubmit="@ValidateUser">
+    <div>
+        <br />
+    </div>
+    <div>
+        <h2 style="font-weight:bold; color:lightblue; font-family:sans-serif">NewsBook</h2>
+        <h4 style="color:black; font-family:sans-serif">Login</h4>
+    </div>
+    <div>
+        <br /><br /><br /><br /><br />
+    </div>
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind="user.UserName" placeholder="UserName" />
+    </div>
+    <br />
+    <div class="col-12 row">
+        <input type="password" class="form-control col-12" @bind="user.Password" placeholder="Password" />
+    </div>
+    <br />
+    <div class="col-12 row">
+        <span class="col-12"></span>
+        <input type="submit" class="form-control col-6 btn btn-primary" value="Sign in" />
+        <a href="/signup" class="col-3">Sign up</a>
+    </div>
+    <br />
+    <div class="col-12 row" style="text-align:left; font-weight:bold; color:red">
+        <span class="col-12">@LoginMesssage</span>
+    </div>
+</EditForm>
+
+@code {
+
+    private Utilizador user;
+    private List<Utilizador> people;
+    public string LoginMesssage { get; set; }
+
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        user = new Utilizador();
+
+    }
+
+
+
+    private async Task<bool> ValidateUser()
+    {
+        people = await _db.GetPerson(user.UserName);
+        if (people.Any())
+        {
+            if (people[0].Password.Equals(user.Password))
+            {
+                List<Jornalista> j = await _db2.GetJornalista(user.UserName);
+                if (j.Any())
+                    loginState.JOrU = true;
+                else
+                    loginState.JOrU = false;
+                loginState.UserIDlogged = user.UserName;
+                NavigationManager.NavigateTo("/FeedNews");
+            }
+            else
+            {
+                user = new Utilizador();
+                LoginMesssage = "Incorrect password";
+            }
+        }
+        else
+        {
+            user = new Utilizador();
+            LoginMesssage = "Invalid username";
+        }
+
+        return await Task.FromResult(true);
+    }
+
+
+}
