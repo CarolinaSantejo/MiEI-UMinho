@@ -1,0 +1,36 @@
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.deps.json
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.dll
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\bin\Debug\net5.0\ref\NewsBookLN.dll
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.pdb
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.dll
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\obj\Debug\net5.0\ref\NewsBookLN.dll
+C:\Users\ASUS\Desktop\MIEI\3º Ano\2º Semestre\LI4\3ªFase\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.pdb
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.deps.json
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.dll
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\bin\Debug\net5.0\ref\NewsBookLN.dll
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.pdb
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.csprojAssemblyReference.cache
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.AssemblyInfoInputs.cache
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.AssemblyInfo.cs
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.csproj.CoreCompileInputs.cache
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.dll
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Debug\net5.0\ref\NewsBookLN.dll
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.pdb
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.deps.json
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.dll
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\bin\Debug\net5.0\ref\NewsBookLN.dll
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\bin\Debug\net5.0\NewsBookLN.pdb
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.csprojAssemblyReference.cache
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.AssemblyInfoInputs.cache
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.AssemblyInfo.cs
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.csproj.CoreCompileInputs.cache
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.dll
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\obj\Debug\net5.0\ref\NewsBookLN.dll
+C:\Users\calis\Desktop\NewsBookApp\NewsBookLN\obj\Debug\net5.0\NewsBookLN.pdb

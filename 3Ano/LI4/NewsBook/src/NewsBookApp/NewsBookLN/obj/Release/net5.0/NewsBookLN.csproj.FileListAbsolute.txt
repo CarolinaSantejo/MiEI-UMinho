@@ -1,0 +1,11 @@
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\bin\Release\net5.0\NewsBookLN.deps.json
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\bin\Release\net5.0\NewsBookLN.dll
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\bin\Release\net5.0\ref\NewsBookLN.dll
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\bin\Release\net5.0\NewsBookLN.pdb
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Release\net5.0\NewsBookLN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Release\net5.0\NewsBookLN.AssemblyInfoInputs.cache
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Release\net5.0\NewsBookLN.AssemblyInfo.cs
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Release\net5.0\NewsBookLN.csproj.CoreCompileInputs.cache
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Release\net5.0\NewsBookLN.dll
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Release\net5.0\ref\NewsBookLN.dll
+C:\Users\calis\Downloads\NewsBookApp\NewsBookApp\NewsBookLN\obj\Release\net5.0\NewsBookLN.pdb
