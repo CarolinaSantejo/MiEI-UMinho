@@ -1,1 +1,1 @@
-# UMinho-LEI
+# LEI-UMinho
