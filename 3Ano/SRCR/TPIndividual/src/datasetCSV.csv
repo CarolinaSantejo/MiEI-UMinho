@@ -1,0 +1,420 @@
+﻿Latitude;Longitude;OBJECTID;PONTO_RECOLHA_LOCAL;CONTENTOR_RESÍDUO;CONTENTOR_TOTAL_LITROS
+-9.143308809;38.70807879;355;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataide);Lixos;90
+-9.143308809;38.70807879;356;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataide);Lixos;1680
+-9.143308809;38.70807879;357;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataide);Lixos;90
+-9.143308809;38.70807879;358;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataide);Papel e Cartao;1440
+-9.143308809;38.70807879;359;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataide);Papel e Cartao;90
+-9.143377778;38.70807819;364;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Lixos;240
+-9.143377778;38.70807819;365;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Lixos;840
+-9.143377778;38.70807819;366;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Lixos;120
+-9.143377778;38.70807819;367;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Lixos;180
+-9.143377778;38.70807819;368;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Lixos;240
+-9.143377778;38.70807819;369;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Lixos;840
+-9.143377778;38.70807819;370;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Lixos;120
+-9.143377778;38.70807819;360;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Lixos;180
+-9.143377778;38.70807819;361;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Papel e Cartao;280
+-9.143377778;38.70807819;362;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Papel e Cartao;90
+-9.143377778;38.70807819;363;15806: R do Alecrim (Impar (27->53)(->): R Ataide - R Ferragial);Papel e Cartao;90
+-9.143481807;38.70730262;371;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Lixos;240
+-9.143481807;38.70730262;372;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Lixos;420
+-9.143481807;38.70730262;373;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Lixos;240
+-9.143481807;38.70730262;374;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Lixos;420
+-9.143481807;38.70730262;375;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Papel e Cartao;240
+-9.143481807;38.70730262;376;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Papel e Cartao;140
+-9.142550987;38.70732868;377;15808: R Corpo Santo (Ambos (->)(10->26): Lg Corpo Santo - Tv Corpo Santo);Lixos;280
+-9.142550987;38.70732868;378;15808: R Corpo Santo (Ambos (->)(10->26): Lg Corpo Santo - Tv Corpo Santo);Lixos;960
+-9.142550987;38.70732868;379;15808: R Corpo Santo (Ambos (->)(10->26): Lg Corpo Santo - Tv Corpo Santo);Lixos;280
+-9.142550987;38.70732868;380;15808: R Corpo Santo (Ambos (->)(10->26): Lg Corpo Santo - Tv Corpo Santo);Lixos;960
+-9.142765961;38.70708361;381;15809: Tv Corpo Santo (Ambos (->)(->): R Corpo Santo - R Bernardino da Costa);Lixos;280
+-9.142765961;38.70708361;382;15809: Tv Corpo Santo (Ambos (->)(->): R Corpo Santo - R Bernardino da Costa);Lixos;120
+-9.142622569;38.70669752;383;15810: Tv Corpo Santo (Ambos (->)(->): R Bernardino da Costa - Cais do Sodre);Lixos;960
+-9.142622569;38.70669752;384;15810: Tv Corpo Santo (Ambos (->)(->): R Bernardino da Costa - Cais do Sodre);Lixos;960
+-9.142622569;38.70669752;385;15810: Tv Corpo Santo (Ambos (->)(->): R Bernardino da Costa - Cais do Sodre);Papel e Cartao;240
+-9.142408356;38.70699663;386;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Lixos;420
+-9.142408356;38.70699663;387;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Lixos;960
+-9.142408356;38.70699663;388;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Lixos;420
+-9.142408356;38.70699663;389;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Lixos;960
+-9.142408356;38.70699663;390;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Papel e Cartao;240
+-9.143050155;38.70685596;391;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;700
+-9.143050155;38.70685596;392;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;720
+-9.143050155;38.70685596;393;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;360
+-9.143050155;38.70685596;394;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;700
+-9.143050155;38.70685596;395;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;720
+-9.143050155;38.70685596;396;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;360
+-9.151251124;38.70877545;397;15813: Lg Conde-Barao (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;2400
+-9.151251124;38.70877545;398;15813: Lg Conde-Barao (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;980
+-9.151251124;38.70877545;399;15813: Lg Conde-Barao (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;90
+-9.151251124;38.70877545;400;15813: Lg Conde-Barao (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;2400
+-9.151251124;38.70877545;401;15813: Lg Conde-Barao (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;980
+-9.151251124;38.70877545;402;15813: Lg Conde-Barao (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;90
+-9.151789464;38.70863563;406;15814: Lg Conde-Barao (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;240
+-9.151789464;38.70863563;407;15814: Lg Conde-Barao (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;700
+-9.151789464;38.70863563;408;15814: Lg Conde-Barao (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;90
+-9.151789464;38.70863563;409;15814: Lg Conde-Barao (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;480
+-9.151789464;38.70863563;410;15814: Lg Conde-Barao (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;240
+-9.151789464;38.70863563;403;15814: Lg Conde-Barao (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;700
+-9.151789464;38.70863563;404;15814: Lg Conde-Barao (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;90
+-9.151789464;38.70863563;405;15814: Lg Conde-Barao (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;480
+-9.152018979;38.70860661;411;15815: Lg Conde-Barao (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;120
+-9.152018979;38.70860661;412;15815: Lg Conde-Barao (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;280
+-9.152018979;38.70860661;413;15815: Lg Conde-Barao (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;240
+-9.152018979;38.70860661;414;15815: Lg Conde-Barao (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;120
+-9.152018979;38.70860661;415;15815: Lg Conde-Barao (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;280
+-9.152018979;38.70860661;416;15815: Lg Conde-Barao (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;240
+-9.149105527;38.70907338;417;15818: Tv Marques de Sampaio (Ambos (->)(->): R da Boavista - R da Boavista);Lixos;240
+-9.147649761;38.70856359;418;15819: R da Boavista (Ambos (1->9)(2->32): R Sao Paulo - Tv Marques de Sampaio);Lixos;1260
+-9.147649761;38.70856359;419;15819: R da Boavista (Ambos (1->9)(2->32): R Sao Paulo - Tv Marques de Sampaio);Lixos;240
+-9.147649761;38.70856359;420;15819: R da Boavista (Ambos (1->9)(2->32): R Sao Paulo - Tv Marques de Sampaio);Lixos;720
+-9.147649761;38.70856359;421;15819: R da Boavista (Ambos (1->9)(2->32): R Sao Paulo - Tv Marques de Sampaio);Lixos;180
+-9.147649761;38.70856359;422;15819: R da Boavista (Ambos (1->9)(2->32): R Sao Paulo - Tv Marques de Sampaio);Lixos;1100
+-9.14857178;38.70872672;423;15820: R da Boavista (Ambos (->)(34->84): Tv Marques de Sampaio - Bqr dos Ferreiros);Lixos;840
+-9.14857178;38.70872672;424;15820: R da Boavista (Ambos (->)(34->84): Tv Marques de Sampaio - Bqr dos Ferreiros);Lixos;480
+-9.14857178;38.70872672;425;15820: R da Boavista (Ambos (->)(34->84): Tv Marques de Sampaio - Bqr dos Ferreiros);Lixos;90
+-9.149113446;38.7088211;426;15821: R da Boavista (Ambos (45->49)(86->90): Bqr dos Ferreiros - Tv Marques de Sampaio);Lixos;280
+-9.149113446;38.7088211;427;15821: R da Boavista (Ambos (45->49)(86->90): Bqr dos Ferreiros - Tv Marques de Sampaio);Lixos;480
+-9.149113446;38.7088211;428;15821: R da Boavista (Ambos (45->49)(86->90): Bqr dos Ferreiros - Tv Marques de Sampaio);Lixos;90
+-9.149493546;38.70887183;429;15822: R da Boavista (Ambos (51->67)(96->118): Tv Marques de Sampaio - Pto Galega (Rua da Boavista, 118));Lixos;180
+-9.149493546;38.70887183;430;15822: R da Boavista (Ambos (51->67)(96->118): Tv Marques de Sampaio - Pto Galega (Rua da Boavista, 118));Lixos;120
+-9.149493546;38.70887183;431;15822: R da Boavista (Ambos (51->67)(96->118): Tv Marques de Sampaio - Pto Galega (Rua da Boavista, 118));Lixos;140
+-9.149493546;38.70887183;432;15822: R da Boavista (Ambos (51->67)(96->118): Tv Marques de Sampaio - Pto Galega (Rua da Boavista, 118));Lixos;720
+-9.150183884;38.70891086;433;15823: R da Boavista (Ambos (69->83)(120->176): Pto Galega (Rua da Boavista, 118) - R Instituto Industrial);Lixos;1680
+-9.150183884;38.70891086;434;15823: R da Boavista (Ambos (69->83)(120->176): Pto Galega (Rua da Boavista, 118) - R Instituto Industrial);Lixos;270
+-9.150183884;38.70891086;435;15823: R da Boavista (Ambos (69->83)(120->176): Pto Galega (Rua da Boavista, 118) - R Instituto Industrial);Lixos;3120
+-9.150183884;38.70891086;436;15823: R da Boavista (Ambos (69->83)(120->176): Pto Galega (Rua da Boavista, 118) - R Instituto Industrial);Lixos;120
+-9.150793117;38.70890555;437;15824: R da Boavista (Ambos (->93)(180->186): R Instituto Industrial - Lg Conde-Barao);Lixos;280
+-9.150793117;38.70890555;438;15824: R da Boavista (Ambos (->93)(180->186): R Instituto Industrial - Lg Conde-Barao);Lixos;120
+-9.150793117;38.70890555;439;15824: R da Boavista (Ambos (->93)(180->186): R Instituto Industrial - Lg Conde-Barao);Lixos;90
+-9.152060348;38.70828196;440;15825: Tv do Cais do Tojo (Ambos (->)(->): R Cais do Tojo - R Cais do Tojo);Lixos;140
+-9.152472114;38.70813424;441;15827: R Cais do Tojo (Ambos (33->57)(34->62): Av Dom Carlos I - Tv do Cais do Tojo);Lixos;1920
+-9.152472114;38.70813424;442;15827: R Cais do Tojo (Ambos (33->57)(34->62): Av Dom Carlos I - Tv do Cais do Tojo);Lixos;120
+-9.151783576;38.70822132;443;15828: R Cais do Tojo (Ambos (1->29)(10->30): Tv do Cais do Tojo - Bqr do Duro);Lixos;90
+-9.151783576;38.70822132;444;15828: R Cais do Tojo (Ambos (1->29)(10->30): Tv do Cais do Tojo - Bqr do Duro);Lixos;120
+-9.151783576;38.70822132;445;15828: R Cais do Tojo (Ambos (1->29)(10->30): Tv do Cais do Tojo - Bqr do Duro);Lixos;420
+-9.151783576;38.70822132;446;15828: R Cais do Tojo (Ambos (1->29)(10->30): Tv do Cais do Tojo - Bqr do Duro);Lixos;480
+-9.151544743;38.70840356;447;15830: Bqr do Duro (Ambos (->)(->): R Cais do Tojo - R Cais do Tojo);Lixos;1200
+-9.151388528;38.70792751;448;15831: Bqr do Duro (Ambos (45->59)(34->54): R Cais do Tojo - R Dom Luis I);Lixos;240
+-9.151388528;38.70792751;449;15831: Bqr do Duro (Ambos (45->59)(34->54): R Cais do Tojo - R Dom Luis I);Lixos;90
+-9.151388528;38.70792751;450;15831: Bqr do Duro (Ambos (45->59)(34->54): R Cais do Tojo - R Dom Luis I);Lixos;280
+-9.151388528;38.70792751;451;15831: Bqr do Duro (Ambos (45->59)(34->54): R Cais do Tojo - R Dom Luis I);Lixos;720
+-9.147513949;38.71033931;452;15832: Tv Santa Catarina, 4-6;Lixos;240
+-9.147513949;38.71033931;453;15832: Tv Santa Catarina, 4-6;Lixos;240
+-9.147513949;38.71033931;454;15832: Tv Santa Catarina, 4-6;Vidro;240
+-9.148566019;38.70994283;455;15833: R Ferreiros a Santa Catarina, 20;Lixos;720
+-9.148566019;38.70994283;456;15833: R Ferreiros a Santa Catarina, 20;Lixos;720
+-9.150464329;38.70680059;457;15834: R Instituto Industrial (Ambos (1->5)(2->14): Av 24 de Julho - R Dom Luis I);Lixos;140
+-9.150464329;38.70680059;458;15834: R Instituto Industrial (Ambos (1->5)(2->14): Av 24 de Julho - R Dom Luis I);Lixos;1920
+-9.15054864;38.70788079;459;15836: R Instituto Industrial (Ambos (7->9)(16->22): R Dom Luis I - R da Boavista);Lixos;5520
+-9.15054864;38.70788079;460;15836: R Instituto Industrial (Ambos (7->9)(16->22): R Dom Luis I - R da Boavista);Lixos;140
+-9.148518124;38.70980813;461;15838: R Santa Catarina, 19;Lixos;960
+-9.148518124;38.70980813;462;15838: R Santa Catarina, 19;Lixos;960
+-9.147044252;38.70801938;463;15841: R Moeda (Ambos (1->11)(2->6): R Sao Paulo - Pc Dom Luis I);Lixos;2160
+-9.147044252;38.70801938;464;15841: R Moeda (Ambos (1->11)(2->6): R Sao Paulo - Pc Dom Luis I);Lixos;700
+-9.147044252;38.70801938;465;15841: R Moeda (Ambos (1->11)(2->6): R Sao Paulo - Pc Dom Luis I);Lixos;2160
+-9.147044252;38.70801938;466;15841: R Moeda (Ambos (1->11)(2->6): R Sao Paulo - Pc Dom Luis I);Lixos;700
+-9.146144218;38.70778398;467;15842: Tv Carvalho (Ambos (->)(->): R Ribeira Nova - Tv Carvalho);Lixos;90
+-9.146144218;38.70778398;468;15842: Tv Carvalho (Ambos (->)(->): R Ribeira Nova - Tv Carvalho);Lixos;90
+-9.145639847;38.70788744;469;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc Sao Paulo);Lixos;90
+-9.145639847;38.70788744;470;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc Sao Paulo);Lixos;560
+-9.145639847;38.70788744;471;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc Sao Paulo);Lixos;480
+-9.145639847;38.70788744;472;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc Sao Paulo);Papel e Cartao;90
+-9.145639847;38.70788744;473;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc Sao Paulo);Papel e Cartao;280
+-9.145988636;38.70816366;474;15844: Tv Carvalho (Ambos (->)(->): Tv Carvalho - R Sao Paulo);Lixos;140
+-9.145988636;38.70816366;475;15844: Tv Carvalho (Ambos (->)(->): Tv Carvalho - R Sao Paulo);Lixos;140
+-9.151993526;38.70762498;476;15845: R Dom Luis I (Ambos (43->55)(30->42): Av Dom Carlos I - Bqr do Duro);Lixos;120
+-9.151993526;38.70762498;477;15845: R Dom Luis I (Ambos (43->55)(30->42): Av Dom Carlos I - Bqr do Duro);Lixos;4800
+-9.150935625;38.70760718;478;15846: R Dom Luis I (Ambos (23->27)(28->28): Bqr do Duro - R Instituto Industrial);Lixos;1200
+-9.149935581;38.7076159;479;15847: R Dom Luis I (Ambos (19->21)(16->22): R Instituto Industrial - Bqr dos Ferreiros);Lixos;4320
+-9.149935581;38.7076159;480;15847: R Dom Luis I (Ambos (19->21)(16->22): R Instituto Industrial - Bqr dos Ferreiros);Lixos;120
+-9.148290555;38.70754014;481;15848: R Dom Luis I (Ambos (1->7)(2->12): Bqr dos Ferreiros - Pc Dom Luis I);Lixos;3120
+-9.148290555;38.70754014;482;15848: R Dom Luis I (Ambos (1->7)(2->12): Bqr dos Ferreiros - Pc Dom Luis I);Lixos;4400
+-9.148290555;38.70754014;483;15848: R Dom Luis I (Ambos (1->7)(2->12): Bqr dos Ferreiros - Pc Dom Luis I);Lixos;120
+-9.148290555;38.70754014;484;15848: R Dom Luis I (Ambos (1->7)(2->12): Bqr dos Ferreiros - Pc Dom Luis I);Lixos;90
+-9.147146202;38.70709969;485;15849: Pc Dom Luis I (Ambos (1->27)(->): R Dom Luis I - Av 24 de Julho);Lixos;960
+-9.148353992;38.71039507;486;15850: Tv Condessa do Rio, Fte 3;Lixos;720
+-9.148353992;38.71039507;487;15850: Tv Condessa do Rio, Fte 3;Lixos;720
+-9.148353992;38.71039507;488;15850: Tv Condessa do Rio, Fte 3;Embalagens;240
+-9.146715901;38.70756283;489;15851: Pc Dom Luis I (Ambos (29->34)(->): R Ribeira Nova - R Dom Luis I);Lixos;240
+-9.146715901;38.70756283;490;15851: Pc Dom Luis I (Ambos (29->34)(->): R Ribeira Nova - R Dom Luis I);Lixos;280
+-9.146715901;38.70756283;491;15851: Pc Dom Luis I (Ambos (29->34)(->): R Ribeira Nova - R Dom Luis I);Papel e Cartao;280
+-9.144930015;38.70728106;494;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amelia);Lixos;140
+-9.144930015;38.70728106;495;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amelia);Lixos;120
+-9.144930015;38.70728106;496;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amelia);Lixos;90
+-9.144930015;38.70728106;492;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amelia);Lixos;240
+-9.144930015;38.70728106;493;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amelia);Papel e Cartao;240
+-9.145853665;38.7075613;497;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amelia - Pc Dom Luis I);Lixos;120
+-9.145853665;38.7075613;498;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amelia - Pc Dom Luis I);Lixos;420
+-9.145853665;38.7075613;499;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amelia - Pc Dom Luis I);Lixos;90
+-9.145853665;38.7075613;500;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amelia - Pc Dom Luis I);Lixos;480
+-9.145853665;38.7075613;501;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amelia - Pc Dom Luis I);Papel e Cartao;680
+-9.145853665;38.7075613;502;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amelia - Pc Dom Luis I);Papel e Cartao;90
+-9.145853665;38.7075613;503;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amelia - Pc Dom Luis I);Papel e Cartao;720
+-9.14350797;38.70752758;504;15855: R Sao Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;720
+-9.14350797;38.70752758;505;15855: R Sao Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;120
+-9.14350797;38.70752758;506;15855: R Sao Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;700
+-9.14350797;38.70752758;507;15855: R Sao Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;720
+-9.14350797;38.70752758;508;15855: R Sao Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;120
+-9.14350797;38.70752758;509;15855: R Sao Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;700
+-9.144154727;38.70773817;510;15856: R Sao Paulo (Par (->)(60->82): R Flores - Pc Sao Paulo);Lixos;960
+-9.144154727;38.70773817;511;15856: R Sao Paulo (Par (->)(60->82): R Flores - Pc Sao Paulo);Lixos;280
+-9.144154727;38.70773817;512;15856: R Sao Paulo (Par (->)(60->82): R Flores - Pc Sao Paulo);Lixos;120
+-9.144154727;38.70773817;513;15856: R Sao Paulo (Par (->)(60->82): R Flores - Pc Sao Paulo);Lixos;960
+-9.144154727;38.70773817;514;15856: R Sao Paulo (Par (->)(60->82): R Flores - Pc Sao Paulo);Lixos;280
+-9.144154727;38.70773817;515;15856: R Sao Paulo (Par (->)(60->82): R Flores - Pc Sao Paulo);Lixos;120
+-9.144188704;38.70770185;516;15857: R Sao Paulo (Impar (49->69)(->): Pc Sao Paulo - Tv dos Remolares);Lixos;240
+-9.144188704;38.70770185;517;15857: R Sao Paulo (Impar (49->69)(->): Pc Sao Paulo - Tv dos Remolares);Lixos;140
+-9.144188704;38.70770185;518;15857: R Sao Paulo (Impar (49->69)(->): Pc Sao Paulo - Tv dos Remolares);Lixos;240
+-9.144188704;38.70770185;519;15857: R Sao Paulo (Impar (49->69)(->): Pc Sao Paulo - Tv dos Remolares);Lixos;140
+-9.144188704;38.70770185;520;15857: R Sao Paulo (Impar (49->69)(->): Pc Sao Paulo - Tv dos Remolares);Papel e Cartao;140
+-9.14351883;38.70748245;521;15858: R Sao Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;90
+-9.14351883;38.70748245;522;15858: R Sao Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;420
+-9.14351883;38.70748245;523;15858: R Sao Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;240
+-9.14351883;38.70748245;524;15858: R Sao Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;90
+-9.14351883;38.70748245;525;15858: R Sao Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;420
+-9.14351883;38.70748245;526;15858: R Sao Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;240
+-9.144754745;38.70789511;527;15859: R Sao Paulo (Ambos (->)(88->118): Pc Sao Paulo - Pc Sao Paulo);Lixos;270
+-9.144754745;38.70789511;528;15859: R Sao Paulo (Ambos (->)(88->118): Pc Sao Paulo - Pc Sao Paulo);Lixos;700
+-9.144754745;38.70789511;529;15859: R Sao Paulo (Ambos (->)(88->118): Pc Sao Paulo - Pc Sao Paulo);Lixos;480
+-9.144754745;38.70789511;530;15859: R Sao Paulo (Ambos (->)(88->118): Pc Sao Paulo - Pc Sao Paulo);Lixos;270
+-9.144754745;38.70789511;531;15859: R Sao Paulo (Ambos (->)(88->118): Pc Sao Paulo - Pc Sao Paulo);Lixos;700
+-9.144754745;38.70789511;532;15859: R Sao Paulo (Ambos (->)(88->118): Pc Sao Paulo - Pc Sao Paulo);Lixos;480
+-9.144754745;38.70789511;533;15859: R Sao Paulo (Ambos (->)(88->118): Pc Sao Paulo - Pc Sao Paulo);Papel e Cartao;140
+-9.145528588;38.70814963;534;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Lixos;270
+-9.145528588;38.70814963;535;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Lixos;720
+-9.145528588;38.70814963;536;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Lixos;1540
+-9.145528588;38.70814963;537;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Lixos;240
+-9.145528588;38.70814963;538;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Lixos;270
+-9.145528588;38.70814963;539;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Lixos;720
+-9.145528588;38.70814963;540;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Lixos;1540
+-9.145528588;38.70814963;541;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Lixos;240
+-9.145528588;38.70814963;542;15860: R Sao Paulo (Ambos (71->77)(120->178): Pc Sao Paulo - Tv Carvalho);Papel e Cartao;480
+-9.146060151;38.70834319;543;15861: R Sao Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;700
+-9.146060151;38.70834319;544;15861: R Sao Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;180
+-9.146060151;38.70834319;545;15861: R Sao Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;120
+-9.146060151;38.70834319;546;15861: R Sao Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;700
+-9.146060151;38.70834319;547;15861: R Sao Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;180
+-9.146060151;38.70834319;548;15861: R Sao Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;120
+-9.146348797;38.70843077;549;15862: R Sao Paulo (Ambos (89->)(200->216): Bc da Moeda - Cc da Bica Grande);Lixos;90
+-9.146348797;38.70843077;550;15862: R Sao Paulo (Ambos (89->)(200->216): Bc da Moeda - Cc da Bica Grande);Lixos;280
+-9.146348797;38.70843077;551;15862: R Sao Paulo (Ambos (89->)(200->216): Bc da Moeda - Cc da Bica Grande);Lixos;90
+-9.146348797;38.70843077;552;15862: R Sao Paulo (Ambos (89->)(200->216): Bc da Moeda - Cc da Bica Grande);Lixos;280
+-9.14664843;38.70848221;553;15863: R Sao Paulo (Ambos (->)(218->226): Cc da Bica Grande - R Moeda);Lixos;240
+-9.14664843;38.70848221;554;15863: R Sao Paulo (Ambos (->)(218->226): Cc da Bica Grande - R Moeda);Lixos;140
+-9.14664843;38.70848221;555;15863: R Sao Paulo (Ambos (->)(218->226): Cc da Bica Grande - R Moeda);Lixos;240
+-9.14664843;38.70848221;556;15863: R Sao Paulo (Ambos (->)(218->226): Cc da Bica Grande - R Moeda);Lixos;140
+-9.146958664;38.70847051;563;15864: R Sao Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;960
+-9.146958664;38.70847051;564;15864: R Sao Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;560
+-9.146958664;38.70847051;557;15864: R Sao Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;90
+-9.146958664;38.70847051;558;15864: R Sao Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;120
+-9.146958664;38.70847051;559;15864: R Sao Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;960
+-9.146958664;38.70847051;560;15864: R Sao Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;560
+-9.146958664;38.70847051;561;15864: R Sao Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;90
+-9.146958664;38.70847051;562;15864: R Sao Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;120
+-9.144288217;38.70742174;565;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc Sao Paulo - Tv dos Remolares);Lixos;120
+-9.144288217;38.70742174;566;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc Sao Paulo - Tv dos Remolares);Lixos;280
+-9.144288217;38.70742174;567;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc Sao Paulo - Tv dos Remolares);Lixos;960
+-9.144288217;38.70742174;568;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc Sao Paulo - Tv dos Remolares);Lixos;120
+-9.144288217;38.70742174;569;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc Sao Paulo - Tv dos Remolares);Lixos;280
+-9.144288217;38.70742174;570;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc Sao Paulo - Tv dos Remolares);Lixos;960
+-9.144288217;38.70742174;571;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc Sao Paulo - Tv dos Remolares);Papel e Cartao;140
+-9.144288217;38.70742174;572;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc Sao Paulo - Tv dos Remolares);Papel e Cartao;240
+-9.143814518;38.7072547;573;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Lixos;140
+-9.143814518;38.7072547;574;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Lixos;2640
+-9.143814518;38.7072547;575;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Lixos;140
+-9.143814518;38.7072547;576;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Lixos;2640
+-9.143814518;38.7072547;577;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Papel e Cartao;480
+-9.143192661;38.70717901;578;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;180
+-9.143192661;38.70717901;579;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;720
+-9.143192661;38.70717901;580;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;420
+-9.143192661;38.70717901;581;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;180
+-9.143192661;38.70717901;582;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;720
+-9.143192661;38.70717901;583;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;420
+-9.144027836;38.70689253;584;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;90
+-9.144027836;38.70689253;585;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;1200
+-9.144027836;38.70689253;586;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;700
+-9.144027836;38.70689253;587;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;90
+-9.144027836;38.70689253;588;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;1200
+-9.144027836;38.70689253;589;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;700
+-9.144027836;38.70689253;590;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Papel e Cartao;280
+-9.144478925;38.7070868;591;15869: R Remolares (Ambos (25->41)(28->48): Tv dos Remolares - Tv Ribeira Nova);Lixos;560
+-9.144478925;38.7070868;592;15869: R Remolares (Ambos (25->41)(28->48): Tv dos Remolares - Tv Ribeira Nova);Lixos;240
+-9.144478925;38.7070868;593;15869: R Remolares (Ambos (25->41)(28->48): Tv dos Remolares - Tv Ribeira Nova);Lixos;560
+-9.144478925;38.7070868;594;15869: R Remolares (Ambos (25->41)(28->48): Tv dos Remolares - Tv Ribeira Nova);Lixos;240
+-9.144416495;38.70673604;602;15871: Tv dos Remolares (Ambos (->)(->): Av 24 de Julho - R Remolares);Lixos;240
+-9.144416495;38.70673604;603;15871: Tv dos Remolares (Ambos (->)(->): Av 24 de Julho - R Remolares);Lixos;240
+-9.144169838;38.70717956;611;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;280
+-9.144169838;38.70717956;612;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;240
+-9.144169838;38.70717956;613;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;120
+-9.144169838;38.70717956;614;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;280
+-9.144169838;38.70717956;615;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;240
+-9.144169838;38.70717956;616;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;120
+-9.14401336;38.70749619;617;15875: Tv dos Remolares (Ambos (->)(->): R Sao Paulo - R Nova do Carvalho);Lixos;90
+-9.14401336;38.70749619;618;15875: Tv dos Remolares (Ambos (->)(->): R Sao Paulo - R Nova do Carvalho);Lixos;240
+-9.14401336;38.70749619;619;15875: Tv dos Remolares (Ambos (->)(->): R Sao Paulo - R Nova do Carvalho);Lixos;140
+-9.14401336;38.70749619;620;15875: Tv dos Remolares (Ambos (->)(->): R Sao Paulo - R Nova do Carvalho);Lixos;90
+-9.14401336;38.70749619;621;15875: Tv dos Remolares (Ambos (->)(->): R Sao Paulo - R Nova do Carvalho);Lixos;240
+-9.14401336;38.70749619;622;15875: Tv dos Remolares (Ambos (->)(->): R Sao Paulo - R Nova do Carvalho);Lixos;140
+-9.144047329;38.70582944;623;15876: Cais do Sodre (Ambos (->)(8->): Av 24 de Julho - R Cintura (Santos));Lixos;1680
+-9.143242333;38.70580939;624;15877: Cais do Sodre (Ambos (->)(->): R Cintura (Santos) - Pc Duque da Terceira);Lixos;240
+-9.142814171;38.70642562;625;15878: Cais do Sodre (Ambos (->)(10->46): Pc Duque da Terceira - Tv Corpo Santo);Lixos;240
+-9.142814171;38.70642562;626;15878: Cais do Sodre (Ambos (->)(10->46): Pc Duque da Terceira - Tv Corpo Santo);Lixos;140
+-9.142814171;38.70642562;627;15878: Cais do Sodre (Ambos (->)(10->46): Pc Duque da Terceira - Tv Corpo Santo);Lixos;240
+-9.142814171;38.70642562;628;15878: Cais do Sodre (Ambos (->)(10->46): Pc Duque da Terceira - Tv Corpo Santo);Lixos;140
+-9.142229849;38.70656579;629;15879: Cais do Sodre (Ambos (->)(2->16): Tv Corpo Santo - Lg Corpo Santo);Lixos;280
+-9.142229849;38.70656579;630;15879: Cais do Sodre (Ambos (->)(2->16): Tv Corpo Santo - Lg Corpo Santo);Lixos;280
+-9.142229849;38.70656579;631;15879: Cais do Sodre (Ambos (->)(2->16): Tv Corpo Santo - Lg Corpo Santo);Papel e Cartao;140
+-9.146220062;38.70826974;632;15880: Bc da Moeda (Ambos (->)(4->6): R Sao Paulo - R Sao Paulo);Lixos;90
+-9.146220062;38.70826974;633;15880: Bc da Moeda (Ambos (->)(4->6): R Sao Paulo - R Sao Paulo);Lixos;90
+-9.149564432;38.70900633;634;15881: Pto Galega (Rua da Boavista, 118) (Ambos (->)(18->): R da Boavista - R da Boavista);Lixos;240
+-9.150599493;38.70903335;635;15882: Bc da Boavista (Ambos (->)(4->10): R da Boavista - R da Boavista);Lixos;140
+-9.150599493;38.70903335;636;15882: Bc da Boavista (Ambos (->)(4->10): R da Boavista - R da Boavista);Lixos;90
+-9.144620547;38.7073468;637;15883: Tv Ribeira Nova (Ambos (->)(->): R Remolares - R Nova do Carvalho);Lixos;90
+-9.144620547;38.7073468;638;15883: Tv Ribeira Nova (Ambos (->)(->): R Remolares - R Nova do Carvalho);Lixos;90
+-9.144764004;38.70692219;639;15884: Pc Ribeira Nova (Ambos (->)(2->18): Av 24 de Julho - R Ribeira Nova);Lixos;240
+-9.144764004;38.70692219;640;15884: Pc Ribeira Nova (Ambos (->)(2->18): Av 24 de Julho - R Ribeira Nova);Lixos;240
+-9.144764004;38.70692219;641;15884: Pc Ribeira Nova (Ambos (->)(2->18): Av 24 de Julho - R Ribeira Nova);Papel e Cartao;1100
+-9.145088222;38.70790123;642;15885: Pc Sao Paulo (Ambos (->)(->): R Sao Paulo - Tv Carvalho);Lixos;240
+-9.145088222;38.70790123;643;15885: Pc Sao Paulo (Ambos (->)(->): R Sao Paulo - Tv Carvalho);Lixos;240
+-9.144888868;38.70762372;644;15886: Pc Sao Paulo (Ambos (1->9)(4->8): Tv Carvalho - Tv Ribeira Nova);Lixos;560
+-9.144888868;38.70762372;645;15886: Pc Sao Paulo (Ambos (1->9)(4->8): Tv Carvalho - Tv Ribeira Nova);Lixos;240
+-9.144888868;38.70762372;646;15886: Pc Sao Paulo (Ambos (1->9)(4->8): Tv Carvalho - Tv Ribeira Nova);Papel e Cartao;140
+-9.144475184;38.70763631;647;15887: Pc Sao Paulo (Ambos (17->19)(16->18): Tv Ribeira Nova - R Sao Paulo);Lixos;240
+-9.144475184;38.70763631;648;15887: Pc Sao Paulo (Ambos (17->19)(16->18): Tv Ribeira Nova - R Sao Paulo);Lixos;240
+-9.143298848;38.70655655;649;15888: Pc Duque da Terceira (Ambos (->)(24->): Cais do Sodre - R Bernardino da Costa);Lixos;480
+-9.143298848;38.70655655;650;15888: Pc Duque da Terceira (Ambos (->)(24->): Cais do Sodre - R Bernardino da Costa);Papel e Cartao;240
+-9.143404712;38.70672678;651;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;280
+-9.143404712;38.70672678;652;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;90
+-9.143404712;38.70672678;653;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;120
+-9.143404712;38.70672678;654;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;280
+-9.143404712;38.70672678;655;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;90
+-9.143404712;38.70672678;656;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;120
+-9.143404712;38.70672678;657;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Papel e Cartao;280
+-9.143611743;38.706734;658;15890: Pc Duque da Terceira (Ambos (9->13)(->): R do Alecrim - R Remolares);Lixos;90
+-9.143611743;38.706734;659;15890: Pc Duque da Terceira (Ambos (9->13)(->): R do Alecrim - R Remolares);Lixos;560
+-9.143611743;38.706734;660;15890: Pc Duque da Terceira (Ambos (9->13)(->): R do Alecrim - R Remolares);Lixos;90
+-9.143611743;38.706734;661;15890: Pc Duque da Terceira (Ambos (9->13)(->): R do Alecrim - R Remolares);Lixos;560
+-9.143759014;38.70657959;662;15891: Pc Duque da Terceira (Ambos (1->)(2->4): R Remolares - Av 24 de Julho);Lixos;280
+-9.143759014;38.70657959;663;15891: Pc Duque da Terceira (Ambos (1->)(2->4): R Remolares - Av 24 de Julho);Lixos;280
+-9.143759014;38.70657959;664;15891: Pc Duque da Terceira (Ambos (1->)(2->4): R Remolares - Av 24 de Julho);Papel e Cartao;240
+-9.142005028;38.70692805;333;15892: Lg Corpo Santo (Ambos (->)(2->6): Cais do Sodre - R Arsenal);Lixos;140
+-9.1420101;38.70728832;334;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;90
+-9.1420101;38.70728832;335;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;560
+-9.1420101;38.70728832;336;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;480
+-9.1420101;38.70728832;337;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;90
+-9.1420101;38.70728832;338;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;560
+-9.1420101;38.70728832;339;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;480
+-9.14208135;38.70744985;342;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Lixos;240
+-9.14208135;38.70744985;343;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Lixos;280
+-9.14208135;38.70744985;344;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Lixos;240
+-9.14208135;38.70744985;340;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Lixos;280
+-9.14208135;38.70744985;341;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Papel e Cartao;240
+-9.149863686;38.70903075;345;15896: Bc Francisco Andre (Ambos (3->)(->): R da Boavista - R da Boavista);Lixos;140
+-9.14534815;38.7075837;346;15897: Tv de Sao Paulo (Ambos (->)(->): Pc Sao Paulo - R Ribeira Nova);Lixos;280
+-9.14534815;38.7075837;347;15897: Tv de Sao Paulo (Ambos (->)(->): Pc Sao Paulo - R Ribeira Nova);Lixos;240
+-9.14534815;38.7075837;348;15897: Tv de Sao Paulo (Ambos (->)(->): Pc Sao Paulo - R Ribeira Nova);Lixos;280
+-9.14534815;38.7075837;349;15897: Tv de Sao Paulo (Ambos (->)(->): Pc Sao Paulo - R Ribeira Nova);Lixos;240
+-9.14534815;38.7075837;350;15897: Tv de Sao Paulo (Ambos (->)(->): Pc Sao Paulo - R Ribeira Nova);Papel e Cartao;140
+-9.1443768;38.70636706;351;15898: Av 24 de Julho (Impar (1->)(->): Pc Duque da Terceira - Tv dos Remolares);Lixos;90
+-9.1443768;38.70636706;352;15898: Av 24 de Julho (Impar (1->)(->): Pc Duque da Terceira - Tv dos Remolares);Lixos;240
+-9.1443768;38.70636706;353;15898: Av 24 de Julho (Impar (1->)(->): Pc Duque da Terceira - Tv dos Remolares);Lixos;140
+-9.144734149;38.70643602;354;15899: Av 24 de Julho (Par (->)(2->): Tv dos Remolares - Pc Ribeira Nova);Lixos;140
+-9.14751691;38.714609;43;19365: R O Seculo, 150;Papel e Cartao;480
+-9.14751691;38.714609;42;19365: R O Seculo, 150;Vidro;240
+-9.14751691;38.714609;41;19365: R O Seculo, 150;Embalagens;480
+-9.14751691;38.714609;40;19365: R O Seculo, 150;Lixos;960
+-9.14751691;38.714609;39;19365: R O Seculo, 150;Lixos;960
+-9.151863405;38.71545391;133;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Papel e Cartao;240
+-9.151863405;38.71545391;134;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Papel e Cartao;240
+-9.151863405;38.71545391;135;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Embalagens;240
+-9.151863405;38.71545391;136;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Lixos;240
+-9.151863405;38.71545391;137;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Lixos;240
+-9.151863405;38.71545391;138;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Vidro;240
+-9.151863405;38.71545391;139;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Embalagens;240
+-9.147549562;38.71123078;210;19280: Tv Andre Valente, jt silo;Papel e Cartao;720
+-9.147549562;38.71123078;209;19280: Tv Andre Valente, jt silo;Lixos;2160
+-9.147549562;38.71123078;208;19280: Tv Andre Valente, jt silo;Embalagens;480
+-9.147549562;38.71123078;211;19280: Tv Andre Valente, jt silo;Lixos;2160
+-9.147549562;38.71123078;207;19280: Tv Andre Valente, jt silo;Vidro;240
+-9.144224007;38.70694488;233;19301: R Remolares, Crzt Tv Remolares;Vidro;1500
+-9.144224007;38.70694488;234;19301: R Remolares, Crzt Tv Remolares;Vidro;1500
+-9.144407318;38.71015909;265;19315: R Emenda, 100;Vidro;140
+-9.144900544;38.71089346;231;19300: R Salgadeiras, SFC CZT  R. da Atalaia;Lixos;480
+-9.144900544;38.71089346;232;19300: R Salgadeiras, SFC CZT  R. da Atalaia;Lixos;480
+-9.143880634;38.70949707;66;19407: Tv Guilherme Cossoul, 10;Papel e Cartao;240
+-9.143880634;38.70949707;67;19407: Tv Guilherme Cossoul, 10;Embalagens;240
+-9.151388551;38.70873822;214;19282: Lg Conde-Barao, 19;Papel e Cartao;140
+-9.151388551;38.70873822;213;19282: Lg Conde-Barao, 19;Embalagens;140
+-9.153108561;38.71327215;180;19257: R Sao Bento, 212;Vidro;280
+-9.153108561;38.71327215;181;19257: R Sao Bento, 212;Vidro;280
+-9.153108561;38.71327215;182;19257: R Sao Bento, 212;Vidro;280
+-9.15311831;38.71637976;225;19293: R Imprensa Nacional, 46;Vidro;140
+-9.142260747;38.70794373;245;19310: R Vitor Cordon, 43;Vidro;240
+-9.144813491;38.70798468;267;19319: R Sao Paulo, 108;Embalagens;140
+-9.153608439;38.71446582;163;19236: R Sao Bento, 318;Vidro;140
+-9.153608439;38.71446582;164;19236: R Sao Bento, 318;Organicos;140
+-9.144603489;38.71428298;227;19295: R Teixeira, 1;Vidro;140
+-9.14464752;38.71088664;48;19371: R Salgadeiras, SFC Jt 11;Lixos;720
+-9.14464752;38.71088664;47;19371: R Salgadeiras, SFC Jt 11;Lixos;720
+-9.152425179;38.709684;121;19390: R Poco dos Negros, crzt R Sao Bento;Lixos;720
+-9.152425179;38.709684;122;19390: R Poco dos Negros, crzt R Sao Bento;Lixos;720
+-9.153055613;38.71197549;205;19278: R Correia Garcao, 3;Vidro;240
+-9.153055613;38.71197549;206;19278: R Correia Garcao, 3;Organicos;240
+-9.143011665;38.70738775;85;19415: R Sao Paulo, 14 a 16;Embalagens;140
+-9.143856881;38.70944323;290;19337: Tv Guilherme Cossoul, 11;Vidro;140
+-9.143856881;38.70944323;291;19337: Tv Guilherme Cossoul, 11;Papel e Cartao;140
+-9.143856881;38.70944323;292;19337: Tv Guilherme Cossoul, 11;Embalagens;140
+-9.15264388;38.71051081;692;21843: R Sao Bento, 15;Organicos;90
+-9.15264388;38.71051081;693;21843: R Sao Bento, 15;Vidro;90
+-9.151300393;38.71224303;694;21844: R Cruz dos Poiais de Sao Bento, Crt R das Parreiras;Papel e Cartao;240
+-9.151300393;38.71224303;695;21844: R Cruz dos Poiais de Sao Bento, Crt R das Parreiras;Papel e Cartao;240
+-9.151300393;38.71224303;696;21844: R Cruz dos Poiais de Sao Bento, Crt R das Parreiras;Embalagens;240
+-9.151300393;38.71224303;697;21844: R Cruz dos Poiais de Sao Bento, Crt R das Parreiras;Lixos;240
+-9.151300393;38.71224303;698;21844: R Cruz dos Poiais de Sao Bento, Crt R das Parreiras;Vidro;240
+-9.151300393;38.71224303;699;21844: R Cruz dos Poiais de Sao Bento, Crt R das Parreiras;Embalagens;240
+-9.151300393;38.71224303;700;21844: R Cruz dos Poiais de Sao Bento, Crt R das Parreiras;Lixos;240
+-9.147528628;38.70569115;938;21957: R da Cintura do Porto de Lisboa, 3154 Armazem B;Embalagens;480
+-9.147528628;38.70569115;939;21957: R da Cintura do Porto de Lisboa, 3154 Armazem B;Lixos;240
+-9.147528628;38.70569115;940;21957: R da Cintura do Porto de Lisboa, 3154 Armazem B;Vidro;240
+-9.15077561;38.70848234;944;21959: R Instituto Industrial, 7-7D;Lixos;240
+-9.15077561;38.70848234;945;21959: R Instituto Industrial, 7-7D;Embalagens;480
+-9.15077561;38.70848234;946;21959: R Instituto Industrial, 7-7D;Vidro;560
+-9.15077561;38.70848234;947;21959: R Instituto Industrial, 7-7D;Organicos;720
+-9.146054168;38.70791988;843;21911: Tv Carvalho, frt nº 29;Papel e Cartao;6000
+-9.146054168;38.70791988;844;21911: Tv Carvalho, frt nº 29;Embalagens;6000
+-9.146054168;38.70791988;845;21911: Tv Carvalho, frt nº 29;Vidro;3000
+-9.146054168;38.70791988;846;21911: Tv Carvalho, frt nº 29;Lixos;6000
+-9.149067977;38.70885752;921;21952: R da Boavista, 88-94;Papel e Cartao;90
+-9.149067977;38.70885752;922;21952: R da Boavista, 88-94;Organicos;90
+-9.149067977;38.70885752;923;21952: R da Boavista, 88-94;Vidro;140
+-9.149067977;38.70885752;924;21952: R da Boavista, 88-94;Embalagens;90
+-9.15158074;38.70770064;965;21969: R Dom Luis I, 34;Papel e Cartao;240
+-9.15158074;38.70770064;966;21969: R Dom Luis I, 34;Embalagens;90
+-9.144441604;38.70933007;715;21854: R Emenda, 41-43-45-47;Papel e Cartao;140
+-9.144441604;38.70933007;716;21854: R Emenda, 41-43-45-47;Vidro;240
+-9.144441604;38.70933007;717;21854: R Emenda, 41-43-45-47;Embalagens;140
+-9.144083429;38.71164819;897;21938: R Diario de Noticias, 40-A;Organicos;240
+-9.143292489;38.70773663;951;21961: R do Alecrim, 24;Embalagens;90
+-9.147315299;38.71173725;736;21866: R O Seculo, 12;Papel e Cartao;90
+-9.147315299;38.71173725;737;21866: R O Seculo, 12;Organicos;90
+-9.147315299;38.71173725;738;21866: R O Seculo, 12;Vidro;90
+-9.147315299;38.71173725;739;21866: R O Seculo, 12;Embalagens;90
+-9.147315299;38.71173725;740;21866: R O Seculo, 12;Lixos;90
+-9.147315299;38.71173725;741;21866: R O Seculo, 12;Lixos;90
+-9.146424706;38.71054695;959;21966: R Marechal Saldanha, 26-26/A;Lixos;420
+-9.146424706;38.71054695;960;21966: R Marechal Saldanha, 26-26/A;Lixos;420
+-9.146424706;38.71054695;961;21966: R Marechal Saldanha, 26-26/A;Organicos;140
+-9.146424706;38.71054695;962;21966: R Marechal Saldanha, 26-26/A;Vidro;140
+-9.144977831;38.71066759;963;21967: R Loreto, 57-59;Organicos;140
+-9.143233746;38.70764706;906;21944: R Ferragial, 33-B;Vidro;240
+-9.143233746;38.70764706;907;21944: R Ferragial, 33-B;Organicos;240
+-9.148416742;38.70752102;880;21932: R Dom Luis I, 7-9;Embalagens;240
+-9.148416742;38.70752102;881;21932: R Dom Luis I, 7-9;Papel e Cartao;240
+-9.146202328;38.70782851;789;21889: Tv Carvalho, 27-27/A;Vidro;90
+-9.146202328;38.70782851;790;21889: Tv Carvalho, 27-27/A;Vidro;90
+-9.142597828;38.70902175;869;21925: R António Maria Cardoso, 31/33/35;Papel e Cartao;90
+-9.142597828;38.70902175;870;21925: R António Maria Cardoso, 31/33/35;Lixos;140
+-9.142597828;38.70902175;871;21925: R António Maria Cardoso, 31/33/35;Lixos;140
+-9.145845743;38.71025471;874;21927: Tv Sequeiro, Jt 8;Lixos;1200
+-9.145845743;38.71025471;875;21927: Tv Sequeiro, Jt 8;Lixos;1200
+-9.144084572;38.71172925;898;21939: R Diario de Noticias, 40-B;Organicos;240
+-9.152256635;38.71400022;912;21949: R Quintinha, 70-B;Organicos;140
+-9.152256635;38.71400022;913;21949: R Quintinha, 70-B;Vidro;140
