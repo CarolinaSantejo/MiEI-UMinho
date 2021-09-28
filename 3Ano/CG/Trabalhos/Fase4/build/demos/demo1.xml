@@ -1,0 +1,12 @@
+﻿<scene>
+	<lights>
+		<light type="POINT" posX="0" posY="10" posZ="10" />
+	</lights>
+	<group>
+		<rotate angle="-90" axisX="1" axisY="0" axisZ="0"/>
+		<models>
+			<model file="teapot.3d" texture="teapot.jpg" ambR="1" ambG="1" ambB="1"/>
+		</models>
+	</group>
+</scene>
+

@@ -1,0 +1,11 @@
+﻿<scene>
+	<lights>
+		<light type="DIRECTIONAL" dirX="0" dirY="10" dirZ="10" />
+	</lights>
+	<group>
+		<rotate angle="-90" axisX="1" axisY="0" axisZ="0"/>
+		<models>
+			<model file="torusDemo4.3d" texture="demo4Img.png"/>
+		</models>
+	</group>
+</scene>

@@ -1,0 +1,11 @@
+﻿<scene>
+	<lights>
+		<light type="POINT" posX="0" posY="0" posZ="10" />
+	</lights>
+	<group>
+		<rotate angle="-60" axisX="1" axisY="0" axisZ="1"/>
+		<models>
+			<model file="cone.3d" texture="demo5Img.png"/>
+		</models>
+	</group>
+</scene>

@@ -1,0 +1,12 @@
+﻿<scene>
+	<lights>
+		<light type="SPOT" posX="0" posY="0" posZ="10" dirX="0" dirY="0" dirZ="-1"/>
+	</lights>
+	<group>
+		<rotate angle="-20" axisX="0" axisY="1" axisZ="0"/>
+		<models>
+			<model file="box.3d" texture="img5.png"/>
+		</models>
+	</group>
+</scene>
+

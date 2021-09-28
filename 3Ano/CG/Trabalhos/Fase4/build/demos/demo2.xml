@@ -1,0 +1,15 @@
+﻿<scene>
+	<lights>
+		<light type="POINT" posX="0" posY="1" posZ="1" />
+	</lights>
+	<group>
+		<models>
+			<model file="plane.3d" texture="de.png"/>
+		</models>
+	</group>
+</scene>
+
+
+
+
+
