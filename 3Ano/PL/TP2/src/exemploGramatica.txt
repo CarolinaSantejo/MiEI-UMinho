@@ -1,0 +1,149 @@
+
+//Linguagem EtelBina
+
+GIC = < T , N , S , P >
+
+T = {
+	'*', '+' ,'/', '-', '=', '(', ')', '.', '<', '>', ',', '!', '{', '}', 											//sinais
+	and, or, lessEq, moreEq, equals, int, print, read, if, else, begin, end, repeat, until, program, return,	call,	//palavras reservadas
+	num, var, string, function, varArr																					//símbolos variáveis
+	} //símbolos terminais
+
+N = {Aplicacao, Content, Declaracoes, Instrucoes, Exp, Termo}
+S = Aplicacao
+P = { 
+
+Aplicacao => Declaracoes Content
+Content =>  function Instrucoes end
+Declaracoes => €
+			| Declaracao '.' Declaracoes
+Declaracao => int var
+			| int var '=' num
+			| int var '[' num ']' = '{' Array '}'
+			| int var '[' num ']'
+			| int var '[' num ']' '[' num ']'
+			| int var '[' num ']' '[' num ']' = '{' Array '}'
+Instrucoes => €
+			| Instrucao '.' Instrucoes
+Instrucao => 
+			| Print
+			| var '=' read '.'
+			| var '=' Expressao
+			| Condition
+			| Loop
+			| var inc
+			| var dec
+			| var '[' num ']' = Expressao
+			| var '[' num ']' '[' num ']' = Expressao
+
+Array => num Elems
+
+Elems => €
+	  | ',' num Elems
+Loop => repeat Instrucoes until Verifica
+
+Print => print var 
+	   | print string
+
+Condition => if Verifica '{' Instrucoes '}'
+		   | if Verifica '{' Instrucoes '}' else '{' Instrucoes	'}'
+
+Verifica : '(' Cond ')' 
+		 | '!' '(' Cond ')'
+		 | Verifica and Verifica
+	 	 | Verifica or Verifica
+
+Cond : Expressao equals Expressao
+	 | Expressao lessEq Expressao
+	 | Expressao moreEq Expressao
+	 | Expressao '<' Expressao
+	 | Expressao '>' Expressao
+	 | Verifica
+
+Expressao : expressao '+' termo
+          | expressao '-' termo 
+          | termo 
+termo : termo '*' fator
+      | termo '/' fator
+      | fator
+fator : var
+	  | var '[' num ']'
+	  | var '[' num ']' '[' num ']'
+      | '(' expressao ')'
+
+
+
+
+
+
+
+
+
+
+
+
+
+!(!(!(x==1)))
+
+
+
+
+}
+
+
+
+//Declarações
+int a
+int
+int b = 3.
+
+
+//Instruções
+begin
+print a.
+end
+
+//Programas
+program main.
+int x.
+begin
+
+x = call funcaoNosBosques.
+
+end
+
+
+program funcaoX().
+begin
+a = 3
+a = x + (2 * 7)
+
+if (x equal 2) { print a. print b. }
+else (print c. x = x + 1.)
+
+print "Insira um número".
+c = read.
+
+if (x equal 2) then 
+	x = 5.
+	if (y equal 3) then 
+		print a, print b.
+	print "ola".
+end
+
+
+
+program funcaoNosBosques.
+begin
+repeat
+	x = x + 1.
+	repeat
+		y = y + 1.
+	until (y equal 5).
+	print x.
+until (x equal 10).
+
+return x.
+end
+
+

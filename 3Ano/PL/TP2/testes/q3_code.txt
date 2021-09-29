@@ -1,0 +1,24 @@
+int N.
+int i.
+int num.
+int res.
+
+
+main():
+    print "Indique o nº de números a ler:\n".
+    N = read.
+
+    repeat{
+        print "Indique um número:\n".
+        num = read.
+        if(res equals 0){
+            res = res + num.
+        }
+        else {
+            res = res * num.
+        }.
+        i++.
+    }until(i moreEq N).
+
+    print res.
+end

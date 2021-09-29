@@ -1,0 +1,18 @@
+int lados[4].
+int i = 0.
+int saoLados = 1.
+
+main():
+    repeat{
+        lados[i] = read.
+        i++.
+    } until(i>3).
+    if ((lados[1] equals lados[0]) and (lados[2] equals lados[0]) and (lados[3] equals lados[0])) {
+        saoLados = 1.
+    }
+    else{
+        saoLados = 0.
+    }.
+    print saoLados.
+    
+end

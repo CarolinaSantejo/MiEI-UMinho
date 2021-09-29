@@ -1,0 +1,64 @@
+pushn 4
+pushi 0
+pushi 1
+start
+repeat0:
+pushgp
+pushi 0
+padd
+pushg 4
+read
+atoi
+storen
+pushg 4
+pushi 1
+add
+storeg 4
+pushg 4
+pushi 3
+sup
+jz repeat0
+pushgp
+pushi 0
+padd
+pushi 1
+loadn
+pushgp
+pushi 0
+padd
+pushi 0
+loadn
+equal
+pushgp
+pushi 0
+padd
+pushi 2
+loadn
+pushgp
+pushi 0
+padd
+pushi 0
+loadn
+equal
+pushgp
+pushi 0
+padd
+pushi 3
+loadn
+pushgp
+pushi 0
+padd
+pushi 0
+loadn
+equal
+mul
+mul
+jz if0
+pushi 1
+storeg 5
+jump ifend0
+if0:
+pushi 0
+storeg 5
+ifend0:
+stop

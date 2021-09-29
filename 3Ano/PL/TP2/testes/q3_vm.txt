@@ -1,0 +1,42 @@
+pushi 0
+pushi 0
+pushi 0
+pushi 0
+start
+pushs "Indique o nº de números a ler:\n"
+writes
+read
+atoi
+storeg 0
+repeat0:
+pushs "Indique um número:\n"
+writes
+read
+atoi
+storeg 2
+pushg 3
+pushi 0
+equal
+jz if0
+pushg 3
+pushg 2
+add
+storeg 3
+jump ifend0
+if0:
+pushg 3
+pushg 2
+mul
+storeg 3
+ifend0:
+pushg 1
+pushi 1
+add
+storeg 1
+pushg 1
+pushg 0
+supeq
+jz repeat0
+pushg 3
+writei
+stop
