@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Triangulo()
+comment1.params=a\ b\ c
+comment1.target=Triangulo(Ponto,\ Ponto,\ Ponto)
+comment1.text=Como\ o\ diagrama\ de\ classe\ \u00E9\ composi\u00E7\u00E3o\ \u00E9\ necess\u00E1rio\ fazer\ clone
+comment2.params=umTriang
+comment2.target=Triangulo(Triangulo)
+comment3.params=
+comment3.target=Ponto\ getPA()
+comment4.params=
+comment4.target=Ponto\ getPB()
+comment5.params=
+comment5.target=Ponto\ getPC()
+comment6.params=o
+comment6.target=boolean\ equals(java.lang.Object)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=
+comment8.target=Triangulo\ clone()
+comment9.params=
+comment9.target=double\ calculaAreaTriangulo()
+numComments=10
