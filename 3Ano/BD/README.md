@@ -1,2 +1,2 @@
 # MEIO
-Trabalhos realizados no âmbito da UC de Modelos Estocásticos de Investigação Operacional
+Trabalhos realizados no âmbito da UC de Bases de Dados
