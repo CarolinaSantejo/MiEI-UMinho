@@ -1,0 +1,20 @@
+[6431] ola
+[6434] ola
+[6434] tudo bem?
+[6431] tudo e contigo?
+[6434] tambem
+[6431] ok xau
+[6434] xau
+[6484] ola ola
+[6485] ola 6484
+[6484] xau 6485
+[6485] xau
+[6489] ola tudo bem?
+[6492] ola!
+[6492] xau
+[6489] xau
+[6503] ola
+[6502] ola
+[6502] xau xau
+[6503] bye
+[6516] aaaaaaaaaaa
