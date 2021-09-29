@@ -1,0 +1,3 @@
+/home/carolina/Desktop/LI2/Reversi_LI2/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/carolina/Desktop/LI2/Reversi_LI2/src/cmake-build-debug/CMakeFiles/proj.dir
+/home/carolina/Desktop/LI2/Reversi_LI2/src/cmake-build-debug/CMakeFiles/edit_cache.dir
