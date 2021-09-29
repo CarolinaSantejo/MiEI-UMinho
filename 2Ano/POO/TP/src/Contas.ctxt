@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Contas
+comment1.params=
+comment1.target=Contas()
+comment10.params=code
+comment10.target=Conta\ getContaByCode(java.lang.String)
+comment11.params=s
+comment11.target=boolean\ existeEmail(java.lang.String)
+comment12.params=
+comment12.target=int\ newCodeNumber()
+comment2.params=map
+comment2.target=Contas(java.util.Map)
+comment3.params=us
+comment3.target=Contas(Contas)
+comment4.params=
+comment4.target=java.util.Map\ getContas()
+comment5.params=conta
+comment5.target=void\ addConta(Conta)
+comment6.params=map
+comment6.target=void\ setContas(java.util.Map)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=
+comment8.target=Contas\ clone()
+comment9.params=email
+comment9.target=Conta\ getContaByEmail(java.lang.String)
+numComments=13
