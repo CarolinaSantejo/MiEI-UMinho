@@ -1,1 +1,1 @@
-# LEI-UMinho
+# MiEI-UMinho
