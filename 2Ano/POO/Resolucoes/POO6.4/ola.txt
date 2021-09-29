@@ -1,0 +1,59 @@
+---VeiculoNormal---
+Matricula: 30JB91
+Marca: Renault
+Modelo: Megane
+Ano: 2007
+Velocidade Média(Km/h): 75.0
+Preco(por Km): 1.33
+Classificaçoes (0 a 10): []
+Kms: 0
+Kms do ultimo aluguer: 0
+
+---AutocarroInteligente---
+Matricula: 00HB53
+Marca: Opel
+Modelo: Corsa
+Ano: 2000
+Velocidade Média(Km/h): 55.0
+Preco(por Km): 1.03
+Classificaçoes (0 a 10): [10]
+Kms: 23
+Kms do ultimo aluguer: 10
+Lotacao: 150
+Ocupacao: 200
+
+---VeiculoOcasiao---
+Matricula: 07RV56
+Marca: Fiat
+Modelo: 500
+Ano: 2015
+Velocidade Média(Km/h): 67.0
+Preco(por Km): 1.23
+Classificaçoes (0 a 10): []
+Kms: 123
+Kms do ultimo aluguer: 123
+Desconto?: true
+
+---VeiculoPremium---
+Matricula: 78WB81
+Marca: Mazda
+Modelo: 3
+Ano: 2009
+Velocidade Média(Km/h): 73.0
+Preco(por Km): 1.45
+Classificaçoes (0 a 10): []
+Kms: 0
+Kms do ultimo aluguer: 0
+Taxa: 1.5
+
+---VeiculoNormal---
+Matricula: 01SP31
+Marca: Ferrari
+Modelo: 234
+Ano: 2017
+Velocidade Média(Km/h): 120.0
+Preco(por Km): 3.33
+Classificaçoes (0 a 10): []
+Kms: 0
+Kms do ultimo aluguer: 0
+

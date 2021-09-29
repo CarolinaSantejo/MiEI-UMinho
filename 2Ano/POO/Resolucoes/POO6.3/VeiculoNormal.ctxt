@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=VeiculoNormal()
+comment1.params=v
+comment1.target=VeiculoNormal(VeiculoNormal)
+comment2.params=mat\ marc\ mod\ ano\ vel\ preco\ classif\ kms\ kmsUltimo
+comment2.target=VeiculoNormal(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ double,\ double,\ java.util.ArrayList,\ int,\ int)
+comment3.params=
+comment3.target=double\ custoRealKm()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=VeiculoNormal\ clone()
+numComments=6
