@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Grafo()
+comment0.text=\n\ Contrutor\ vazio\n
+comment1.params=outraAdj
+comment1.target=Grafo(java.util.Map)
+comment2.params=orig\ dest
+comment2.target=void\ addArco(java.lang.Integer,\ java.lang.Integer)
+comment2.text=\n\ M\u00E9todos\ de\ inst\u00E2ncia\n
+comment3.params=v
+comment3.target=boolean\ isSink(java.lang.Integer)
+comment4.params=v
+comment4.target=boolean\ isSource(java.lang.Integer)
+comment5.params=
+comment5.target=int\ size()
+comment6.params=orig\ dest
+comment6.target=boolean\ haCaminho(java.lang.Integer,\ java.lang.Integer)
+comment7.params=orig\ dest\ visitados
+comment7.target=boolean\ haCaminho(java.lang.Integer,\ java.lang.Integer,\ java.util.Set)
+comment8.params=vorig
+comment8.target=java.util.Set\ fanOut(java.lang.Integer)
+comment9.params=vdest
+comment9.target=java.util.Set\ fanIn(java.lang.Integer)
+numComments=10

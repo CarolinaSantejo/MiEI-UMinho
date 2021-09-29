@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getPontosKm()
+comment1.params=pontos
+comment1.target=void\ setPontosKm(int)
+numComments=2

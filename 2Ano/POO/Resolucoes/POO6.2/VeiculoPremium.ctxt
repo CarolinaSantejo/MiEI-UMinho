@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=VeiculoPremium()
+comment0.text=\n\ COnstrutor\ para\ objetos\ da\ classe\ VeiculoPremium\n
+comment1.params=v
+comment1.target=VeiculoPremium(VeiculoPremium)
+comment2.params=mat\ marc\ mod\ ano\ vel\ preco\ classif\ kms\ kmsUltimo\ taxa
+comment2.target=VeiculoPremium(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ double,\ double,\ java.util.ArrayList,\ int,\ int,\ double)
+comment3.params=
+comment3.target=double\ getTaxa()
+comment4.params=taxa
+comment4.target=void\ setTaxa(double)
+comment5.params=
+comment5.target=double\ custoRealKm()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=
+comment7.target=VeiculoPremium\ clone()
+numComments=8

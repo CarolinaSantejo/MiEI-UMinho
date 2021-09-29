@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=opcoes
+comment0.target=Menu(java.lang.String[])
+comment1.params=
+comment1.target=void\ executa()
+comment2.params=
+comment2.target=java.lang.String\ execLer()
+comment3.params=
+comment3.target=java.lang.String\ exec()
+comment4.params=
+comment4.target=void\ showMenu()
+comment5.params=
+comment5.target=void\ showOpcoes()
+comment6.params=
+comment6.target=void\ show()
+comment7.params=op
+comment7.target=java.lang.String\ novoVeiculoMenu(int)
+comment8.params=
+comment8.target=int\ lerOpcao()
+comment9.params=
+comment9.target=int\ getOpcao()
+numComments=10
