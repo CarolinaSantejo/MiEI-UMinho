@@ -16,7 +16,7 @@
 
 ## 3º Ano
 ### 1º Semestre
-- [Bases de Dados](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/BD) (16/20)
+- [Bases de Dados](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/BD)
 - [Desenvolvimento de Sistemas de Software](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/DSS)
 - [Métodos Numéricos de Otimização Linear](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/MNOL)
 - [Modelos Determinísticos de Investigação Operacional](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/MDIO)
