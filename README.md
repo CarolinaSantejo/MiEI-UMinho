@@ -30,7 +30,14 @@
 - [Modelos Estocásticos de Investigação Operacional](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/MEIO) 
 - [Sistemas de Representação de Conhecimento e Raciocínio](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/SRCR)
 
-
+## 4º Ano
+### 1º Semestre
+- [Aplicações e Serviços de Computação em Nuvem](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/ASCN)
+- [Computação Paralela](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/CP)
+- [Dados e Aprendizagem Automática](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/DAA)
+- [Engenharia de Serviços em Rede](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/ESR)
+- [Métodos Formais em Engenharia de Software](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/MFES)
+- [Requisitos e Arquiteturas de Software](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/RAS)
 
 
 
