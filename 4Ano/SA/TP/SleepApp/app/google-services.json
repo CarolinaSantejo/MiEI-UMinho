@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "101043426033",
+    "firebase_url": "https://blabla-286b9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "blabla-286b9",
+    "storage_bucket": "blabla-286b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101043426033:android:bcf59443630f91ca9b4f50",
+        "android_client_info": {
+          "package_name": "com.example.mysensorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101043426033-7muv38m2ama6lqq91ffpiotaj8imbq2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC04V3EaPcxKot5IDoiY5MJzWB5Lge-hcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101043426033-7muv38m2ama6lqq91ffpiotaj8imbq2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,300 @@
+2022-03-02 20:43:41|Key pressed|g
+2022-03-02 20:47:25|Key pressed|g
+2022-03-02 20:47:35|Key pressed|h
+2022-03-02 20:47:35|Key pressed|r
+2022-03-02 20:47:36|Key pressed|g
+2022-03-02 20:47:36|Key pressed|a
+2022-03-02 20:47:37|Key pressed|g
+2022-03-02 20:47:41|Key pressed|h
+2022-03-02 20:47:41|Key pressed|r
+2022-03-02 20:47:42|Key pressed|h
+2022-03-02 22:19:44|Key pressed|f
+2022-03-02 22:19:45|Key pressed|g
+2022-03-02 22:19:47|Key pressed|g
+2022-03-02 22:23:19|Key pressed|b
+2022-03-02 22:23:20|Key pressed|k
+2022-03-02 22:23:20|Key pressed|b
+2022-03-02 22:23:21|Key pressed|b
+2022-03-02 22:23:21|Key pressed|j
+2022-03-02 22:23:22|Key pressed|b
+2022-03-02 22:23:22|Key pressed|j
+2022-03-02 22:23:25|Key pressed|n
+2022-03-02 22:23:25|Key pressed|n
+2022-03-02 22:23:26|Key pressed|n
+2022-03-02 22:23:26|Key pressed|i
+2022-03-02 22:23:27|Key pressed|b
+2022-03-02 22:23:27|Key pressed|i
+2022-03-02 22:23:28|Key pressed|b
+2022-03-02 22:23:28|Key pressed|u
+2022-03-02 22:23:29|Key pressed|h
+2022-03-02 22:23:29|Key pressed|l
+2022-03-02 22:23:30|Key pressed|h
+2022-03-02 22:23:30|Key pressed|l
+2022-03-02 22:23:31|Key pressed|i
+2022-03-02 22:23:31|Key pressed|i
+2022-03-02 22:23:32|Key pressed|i
+2022-03-02 22:23:32|Key pressed|l
+2022-03-02 22:23:33|Key pressed|i
+2022-03-02 22:24:17|Key pressed|c
+2022-03-02 22:24:18|Key pressed|r
+2022-03-02 22:24:18|Key pressed|o
+2022-03-02 22:24:19|Key pressed|l
+2022-03-02 22:24:19|Key pressed|i
+2022-03-02 22:24:20|Key pressed|n
+2022-03-02 22:24:20|Key pressed|a
+2022-03-02 22:24:21|Key pressed|s
+2022-03-02 22:24:23|Key pressed|n
+2022-03-02 22:24:23|Key pressed|t
+2022-03-02 22:24:24|Key pressed|e
+2022-03-02 22:24:24|Key pressed|j
+2022-03-02 22:49:39|KeyPressed|g
+2022-03-02 22:49:40|KeyPressed|d
+2022-03-02 22:49:41|KeyPressed|g
+2022-03-02 22:49:41|KeyPressed|d
+2022-03-02 22:49:41|KeyPressed|g
+2022-03-02 22:49:43|KeyPressed|n
+2022-03-02 22:49:43|KeyPressed|c
+2022-03-02 22:49:43|KeyPressed|g
+2022-03-02 22:49:43|KeyPressed|n
+2022-03-02 22:49:43|KeyPressed|v
+2022-03-02 22:49:43|KeyPressed|n
+2022-03-02 22:50:22|KeyPressed|g
+2022-03-02 22:50:23|KeyPressed|g
+2022-03-02 22:50:23|KeyPressed|e
+2022-03-02 22:50:24|KeyPressed|g
+2022-03-02 22:50:25|KeyPressed|c
+2022-03-02 22:50:26|KeyPressed|a
+2022-03-02 22:50:26|KeyPressed|r
+2022-03-02 22:50:26|KeyPressed|o
+2022-03-02 22:50:26|KeyPressed|l
+2022-03-02 22:50:26|KeyPressed|i
+2022-03-02 22:50:27|KeyPressed|n
+2022-03-02 22:50:27|KeyPressed|a
+2022-03-02 22:51:05|KeyPressed|f
+2022-03-02 22:51:59|KeyPressed|h
+2022-03-02 22:52:00|KeyPressed|r
+2022-03-02 22:52:00|KeyPressed|h
+2022-03-02 22:52:00|KeyPressed|r
+2022-03-02 22:52:01|KeyPressed|r
+2022-03-02 22:52:01|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:02|KeyPressed|r
+2022-03-02 22:52:03|KeyPressed|r
+2022-03-02 22:52:03|KeyPressed|r
+2022-03-02 22:52:03|KeyPressed|r
+2022-03-02 22:52:03|KeyPressed|r
+2022-03-02 22:52:04|KeyPressed|r
+2022-03-02 22:52:05|KeyPressed|r
+2022-03-02 22:52:05|KeyPressed|r
+2022-03-02 22:52:05|KeyPressed|r
+2022-03-02 22:52:05|KeyPressed|r
+2022-03-02 22:52:06|KeyPressed|r
+2022-03-02 22:52:06|KeyPressed|r
+2022-03-02 22:52:06|KeyPressed|r
+2022-03-02 22:52:06|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 22:52:07|KeyPressed|r
+2022-03-02 23:00:11|KeyPressed|f
+2022-03-02 23:00:59|KeyPressed|g
+2022-03-02 23:00:59|KeyPressed|r
+2022-03-02 23:00:59|KeyPressed|d
+2022-03-02 23:01:00|KeyPressed|h
+2022-03-02 23:01:00|KeyPressed|r
+2022-03-02 23:01:00|KeyPressed|d
+2022-03-02 23:01:00|KeyPressed|h
+2022-03-02 23:01:00|KeyPressed|d
+2022-03-02 23:01:01|KeyPressed|r
+2022-03-02 23:01:02|KeyPressed|d
+2022-03-02 23:01:02|KeyPressed|h
+2022-03-02 23:01:02|KeyPressed|r
+2022-03-02 23:01:02|KeyPressed|d
+2022-03-02 23:01:03|KeyPressed|h
+2022-03-02 23:01:03|KeyPressed|r
+2022-03-02 23:01:04|KeyPressed|h
+2022-03-02 23:01:04|KeyPressed|r
+2022-03-02 23:01:05|KeyPressed|f
+2022-03-02 23:01:07|KeyPressed|f
+2022-03-02 23:01:08|KeyPressed|f
+2022-03-02 23:01:08|KeyPressed|f
+2022-03-02 23:01:08|KeyPressed|f
+2022-03-02 23:01:08|KeyPressed|f
+2022-03-02 23:01:09|KeyPressed|f
+2022-03-02 23:01:09|KeyPressed|f
+2022-03-02 23:01:09|KeyPressed|f
+2022-03-02 23:01:09|KeyPressed|f
+2022-03-02 23:01:09|KeyPressed|f
+2022-03-02 23:01:10|KeyPressed|f
+2022-03-02 23:01:34|KeyPressed|1
+2022-03-02 23:01:35|KeyPressed|2
+2022-03-02 23:01:35|KeyPressed|3
+2022-03-02 23:01:36|KeyPressed|4
+2022-03-02 23:01:36|KeyPressed|5
+2022-03-02 23:01:36|KeyPressed|6
+2022-03-02 23:01:37|KeyPressed|7
+2022-03-02 23:01:37|KeyPressed|8
+2022-03-02 23:01:37|KeyPressed|9
+2022-03-02 23:01:38|KeyPressed|0
+2022-03-02 23:01:45|KeyPressed|1
+2022-03-02 23:01:46|KeyPressed|3
+2022-03-02 23:01:47|KeyPressed|4
+2022-03-02 23:01:48|KeyPressed|5
+2022-03-02 23:01:48|KeyPressed|6
+2022-03-02 23:01:49|KeyPressed|7
+2022-03-02 23:01:49|KeyPressed|8
+2022-03-02 23:01:52|KeyPressed|9
+2022-03-02 23:01:53|KeyPressed|2
+2022-03-02 23:01:53|KeyPressed|3
+2022-03-02 23:01:53|KeyPressed|4
+2022-03-02 23:02:00|KeyPressed|5
+2022-03-02 23:02:03|KeyPressed|3
+2022-03-02 23:02:03|KeyPressed|4
+2022-03-02 23:02:03|KeyPressed|6
+2022-03-02 23:02:03|KeyPressed|3
+2022-03-02 23:05:57|KeyPressed|1
+2022-03-02 23:05:57|KeyPressed|2
+2022-03-02 23:05:57|KeyPressed|3
+2022-03-02 23:05:58|KeyPressed|4
+2022-03-02 23:05:58|KeyPressed|5
+2022-03-02 23:05:58|KeyPressed|6
+2022-03-02 23:05:59|KeyPressed|7
+2022-03-02 23:05:59|KeyPressed|8
+2022-03-02 23:05:59|KeyPressed|9
+2022-03-02 23:13:46|KeyPressed|f
+2022-03-02 23:13:46|KeyPressed|d
+2022-03-02 23:13:47|KeyPressed|d
+2022-03-02 23:13:48|KeyPressed|f
+2022-03-02 23:16:09|KeyPressed|a
+2022-03-02 23:16:09|KeyPressed|s
+2022-03-02 23:16:09|KeyPressed|d
+2022-03-02 23:16:10|KeyPressed|f
+2022-03-02 23:16:11|KeyPressed|f
+2022-03-02 23:16:11|KeyPressed|f
+2022-03-02 23:17:35|KeyPressed|f
+2022-03-02 23:17:35|KeyPressed|w
+2022-03-02 23:17:35|KeyPressed|f
+2022-03-02 23:17:35|KeyPressed|w
+2022-03-02 23:17:36|KeyPressed|v
+2022-03-02 23:19:23|KeyPressed|d
+2022-03-02 23:19:24|KeyPressed|w
+2022-03-02 23:19:24|KeyPressed|f
+2022-03-02 23:21:48|KeyPressed|f
+2022-03-02 23:21:48|KeyPressed|e
+2022-03-02 23:21:49|KeyPressed|f
+2022-03-02 23:21:49|KeyPressed|e
+2022-03-02 23:21:50|KeyPressed|f
+2022-03-02 23:21:51|KeyPressed|f
+2022-03-02 23:21:51|KeyPressed|e
+2022-03-02 23:24:22|KeyPressed|g
+2022-03-02 23:26:46|KeyPressed|g
+2022-03-02 23:26:51|KeyPressed|
+2022-03-02 23:27:20|KeyPressed|g
+2022-03-02 23:29:35|KeyPressed|f
+2022-03-02 23:32:17|KeyPressed|g
+2022-03-02 23:32:17|KeyPressed|e
+2022-03-02 23:34:09|KeyPressed|h
+2022-03-02 23:34:09|KeyPressed|r
+2022-03-02 23:34:13|KeyPressed|c
+2022-03-02 23:34:13|KeyPressed|a
+2022-03-02 23:34:14|KeyPressed|r
+2022-03-02 23:34:14|KeyPressed|o
+2022-03-02 23:34:14|KeyPressed|l
+2022-03-02 23:34:14|KeyPressed|i
+2022-03-02 23:34:14|KeyPressed|n
+2022-03-02 23:34:15|KeyPressed|a
+2022-03-02 23:34:20|KeyPressed|s
+2022-03-02 23:34:20|KeyPressed|a
+2022-03-02 23:34:20|KeyPressed|n
+2022-03-02 23:34:20|KeyPressed|t
+2022-03-02 23:34:20|KeyPressed|e
+2022-03-02 23:34:20|KeyPressed|j
+2022-03-02 23:34:20|KeyPressed|o
+2022-03-02 23:42:16|KeyPressed|g
+2022-03-02 23:42:17|KeyPressed|e
+2022-03-02 23:42:17|KeyPressed|g
+2022-03-02 23:42:17|KeyPressed|s
+2022-03-02 23:42:17|KeyPressed|e
+2022-03-02 23:42:17|KeyPressed|g
+2022-03-02 23:42:18|KeyPressed|f
+2022-03-02 23:42:19|KeyPressed|e
+2022-03-02 23:42:19|KeyPressed|s
+2022-03-02 23:42:19|KeyPressed|f
+2022-03-02 23:42:19|KeyPressed|e
+2022-03-02 23:42:19|KeyPressed|s
+2022-03-02 23:42:24|KeyPressed|n
+2022-03-02 23:42:24|KeyPressed|l
+2022-03-02 23:42:24|KeyPressed|n
+2022-03-02 23:42:24|KeyPressed|l
+2022-03-02 23:42:24|KeyPressed|k
+2022-03-02 23:51:00|KeyPressed|g
+2022-03-02 23:51:00|KeyPressed|e
+2022-03-02 23:52:39|KeyPressed|e
+2022-03-02 23:52:39|KeyPressed|g
+2022-03-02 23:52:40|KeyPressed|e
+2022-03-02 23:54:22|KeyPressed|g
+2022-03-02 23:54:22|KeyPressed|e
+2022-03-02 23:54:22|KeyPressed|g
+2022-03-02 23:54:22|KeyPressed|e
+2022-03-02 23:54:26|KeyPressed|g
+2022-03-02 23:54:26|KeyPressed|f
+2022-03-02 23:54:32|KeyPressed|1
+2022-03-02 23:54:32|KeyPressed|2
+2022-03-02 23:54:33|KeyPressed|3
+2022-03-02 23:54:36|KeyPressed|4
+2022-03-02 23:54:37|KeyPressed|5
+2022-03-02 23:54:37|KeyPressed|6
+2022-03-02 23:54:40|KeyPressed|3
+2022-03-02 23:54:40|KeyPressed|4
+2022-03-02 23:54:40|KeyPressed|5
+2022-03-02 23:54:40|KeyPressed|3
+2022-03-02 23:54:40|KeyPressed|4
+2022-03-02 23:54:40|KeyPressed|3
+2022-03-02 23:54:40|KeyPressed|4
+2022-03-02 23:54:40|KeyPressed|5
+2022-03-02 23:54:41|KeyPressed|3
+2022-03-02 23:54:41|KeyPressed|5
+2022-03-02 23:54:41|KeyPressed|3
+2022-03-02 23:54:41|KeyPressed|5
+2022-03-02 23:54:41|KeyPressed|4
+2022-03-02 23:54:41|KeyPressed|3
+2022-03-02 23:54:42|KeyPressed|5
+2022-03-02 23:54:42|KeyPressed|4
+2022-03-02 23:54:42|KeyPressed|3
+2022-03-02 23:54:42|KeyPressed|5
+2022-03-02 23:54:42|KeyPressed|3
+2022-03-02 23:54:42|KeyPressed|4
+2022-03-02 23:54:43|KeyPressed|5
+2022-03-02 23:54:43|KeyPressed|3
+2022-03-02 23:54:49|KeyPressed|d
+2022-03-02 23:54:49|KeyPressed|v
+2022-03-02 23:54:49|KeyPressed|d
+2022-03-02 23:55:29|KeyPressed|e
+2022-03-02 23:55:29|KeyPressed|r
+2022-03-02 23:55:30|KeyPressed|t
+2022-03-02 23:55:32|KeyPressed|t
