@@ -1,8 +1,8 @@
-# Projeto Engenharia de Aplicações
+# Engenharia de Aplicações
 
-Projeto realizado no âmbito das UCs de Arquiteturas Aplicacionais e Sistemas Interativos Confiáveis
+Arquiteturas Aplicacionais + Sistemas Interativos
 
-### Nota final: 16
+### Final grade: 16
 
 ## Authors
 * [Carolina Oliveira](https://github.com/CarolinaOliiveira)
