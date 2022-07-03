@@ -1,6 +1,6 @@
 # MiEI-UMinho
 
-Projects developed during my bachelor and master's degree in Software Engineering.
+Projects developed during my bachelor and master's degree in Software Engineering at Universidade do Minho.
 
 ## 1st Year
 ### 1st Semester
