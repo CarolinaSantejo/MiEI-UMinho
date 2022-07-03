@@ -1,5 +1,7 @@
 # MiEI-UMinho
 
+Projects developed during my bachelor's and master's degree in Software Engineering.
+
 ## 1st Year
 ### 1st Semester
 - [Laboratórios de informática I](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/1Ano/LI1)
