@@ -1,8 +1,8 @@
-# Engenharia de Aplicações
+# PetIt Application
 
-Arquiteturas Aplicacionais + Sistemas Interativos
+Project developed within the scope of 'Arquiteturas Aplicacionais' and 'Sistemas Interativos' courses.
 
-### Final grade: 16
+**Final grade:** 16 out of 20
 
 ## Authors
 * [Carolina Oliveira](https://github.com/CarolinaOliiveira)

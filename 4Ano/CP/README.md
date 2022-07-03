@@ -1,6 +1,6 @@
-# BD
+# CP
 
-Project developed within the scope of 'Bases de dados' course.
+Project developed within the scope of 'Computação Paralela' course.
 
 **Final grade:** 16 out of 20
 
