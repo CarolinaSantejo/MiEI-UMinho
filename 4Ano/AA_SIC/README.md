@@ -2,7 +2,7 @@
 
 Projeto realizado no âmbito das UCs de Arquiteturas Aplicacionais e Sistemas Interativos Confiáveis
 
-### **Final grade:** 16
+### Nota final: 16
 
 ## Authors
 * [Carolina Oliveira](https://github.com/CarolinaOliiveira)
