@@ -1,0 +1,80 @@
+.row {
+    display: grid;
+    grid-template-columns: 7% 71% 30%;
+    padding-bottom: 0.5%;
+}
+
+.avatar {
+    height: 0;
+    overflow: hidden;
+    padding-top: 100%;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    vertical-align: middle;
+    left:10%;
+}
+.avatar img {
+    width: 100%;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.username {
+    grid-column-start: 2;
+    text-align: left;
+    position: relative;
+    vertical-align: middle;
+    left: 2%;
+}
+
+.logo {
+    grid-column-start: 3;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(50, 50, 50, 0.889);
+    overflow: auto;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.761);
+    color: rgb(92, 89, 89);
+}
+
+/* Navbar links */
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: rgba(154, 154, 154, 0.953);
+}
+
+/* Current/active navbar link */
+.active {
+    background-color: #15889d;
+}
+
+.navbar a.right {
+    float: right;
+    padding: 14px;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}

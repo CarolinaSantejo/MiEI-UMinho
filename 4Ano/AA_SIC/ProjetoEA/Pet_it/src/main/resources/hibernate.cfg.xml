@@ -1,0 +1,24 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hibernate.connection.url">jdbc:sqlserver://ea-projeto.database.windows.net:1433;databaseName=BD_Petit;encrypt=true;trustServerCertificate=true;</property>
+        <property name="hibernate.connection.username">petit_ea</property>
+        <property name="hibernate.connection.password">projetoea00!</property>
+        <!--property name="connection.pool_size">150</property-->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!-- ADICIONAR NOVAS CLASSES PERSISTENTES -->
+        <mapping class="Petit.classes.User"/>
+        <mapping class="Petit.classes.Client"/>
+        <mapping class="Petit.classes.Animal"/>
+        <mapping class="Petit.classes.Service"/>
+        <mapping class="Petit.classes.ServiceOpt"/>
+        <mapping class="Petit.classes.Petsitter"/>
+        <mapping class="Petit.classes.Request"/>
+        <mapping class="Petit.classes.Advertisement"/>
+        <mapping class="Petit.classes.TimeInterval"/>
+        <mapping class="Petit.classes.Price"/>
+        
+    </session-factory>
+</hibernate-configuration>
+

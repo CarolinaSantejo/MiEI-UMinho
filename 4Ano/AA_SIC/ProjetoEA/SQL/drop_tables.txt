@@ -1,0 +1,14 @@
+drop table Advertisement_Service;
+drop table Advertisement_species;
+drop table Request;
+drop table Petsitter;
+drop table Advertisement_TimeInterval;
+drop table Advertisement;
+drop table Animal;
+drop table Client;
+drop table Service;
+drop table ServiceOpt;
+drop table Service_price;
+drop table TimeInterval;
+drop table hibernate_sequence;
+drop table Price;
