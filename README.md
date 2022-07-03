@@ -21,7 +21,7 @@
 - [Métodos Numéricos de Otimização Linear](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/MNOL)
 - [Modelos Determinísticos de Investigação Operacional](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/MDIO)
 - [Redes de Computadores](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/RC)
-- [Sistemas DIstribuídos](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/SD)
+- [Sistemas Distribuídos](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/SD)
 ### 2nd Semester
 - [Computação Gráfica](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/CG) 
 - [Comunicação por Computadores](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/CC)
