@@ -1,6 +1,8 @@
-# MiEI-UMinho
+# Software Engineering
 
 Projects developed during my bachelor and master's degree in Software Engineering at Universidade do Minho.
+
+# Bachelor's Degree
 
 ## 1st Year
 ### 1st Semester
@@ -32,7 +34,9 @@ Projects developed during my bachelor and master's degree in Software Engineerin
 - [Modelos Estocásticos de Investigação Operacional](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/MEIO) 
 - [Sistemas de Representação de Conhecimento e Raciocínio](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/SRCR)
 
-## 4th Year
+# Master's Degree
+
+## 1st Year
 ### 1st Semester
 - [Aplicações e Serviços de Computação em Nuvem](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/ASCN)
 - [Computação Paralela](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/CP)
