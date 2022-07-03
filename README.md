@@ -1,4 +1,4 @@
-### Software Engineering
+# 🖥️ Software Engineering
 
 Projects developed during my bachelor and master's degree in Software Engineering at Universidade do Minho.
 
