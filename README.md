@@ -47,3 +47,7 @@
 - [Sensorização e Ambiente](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/SA)
 
 #### Aplications Engineering
+
+- [Administração de Bases de Dados](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/ABD)
+- [Sistemas Interativos Confiáveis](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/AA_SIC)
+- [Arquiteturas Aplicacionais](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/AA_SIC)
