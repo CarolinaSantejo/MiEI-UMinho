@@ -2,7 +2,7 @@
 
 Projects developed during my bachelor and master's degree in Software Engineering at [Universidade do Minho](https://www.uminho.pt/).
 
-# 🎓 Bachelor's Degree
+# 🎓 Bachelor's Degree (2018 - 2021)
 
 ## 1st Year
 ### 1st Semester
