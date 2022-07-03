@@ -1,6 +1,6 @@
 # 🖥️ Software Engineering
 
-Projects developed during my bachelor and master's degree in Software Engineering at Universidade do Minho.
+Projects developed during my bachelor and master's degree in Software Engineering at [Universidade do Minho](https://www.uminho.pt/).
 
 # 🎓 Bachelor's Degree
 
