@@ -1,4 +1,4 @@
-# LI3
+# SO
 
 Projects developed within the scope of 'Sistemas Operativos' course.
 
