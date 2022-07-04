@@ -52,7 +52,7 @@ Projects developed during my bachelor and master's degree in Software Engineerin
 - [Agentes e Sistemas Multiagente](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/ASMa)
 - [Sensorização e Ambiente](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/SA)
 
-#### Aplications Engineering
+#### Applications Engineering
 
 - [Administração de Bases de Dados](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/ABD)
 - [Arquiteturas Aplicacionais](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/4Ano/AA_SIC)
