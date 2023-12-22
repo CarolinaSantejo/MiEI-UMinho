@@ -45,7 +45,7 @@ Projects developed during my bachelor and master's degree in Software Engineerin
 - [Modelos Estocásticos de Investigação Operacional (MEIO)](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/MEIO)
 - [Sistemas de Representação de Conhecimento e Raciocínio (SRCR)](https://github.com/CarolinaSantejo/MiEI-UMinho/tree/main/3Ano/SRCR)
 
-# 🎓 Master's Degree (2021 - Present)
+# 🎓 Master's Degree (2021 - 2023)
 
 ## 1st Year
 
